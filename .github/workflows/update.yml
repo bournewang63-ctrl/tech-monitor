@@ -26,6 +26,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main                # 一律取最新版（排隊中的執行不會用到舊版本）
 
       - uses: actions/setup-python@v5
         with:
@@ -47,14 +49,16 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          if git diff --cached --quiet; then
-            echo "沒有新資料"
-          else
-            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase --autostash || true
-            git push
-          fi
+          # 先對齊遠端最新版本，只提交 data/，避免和其他執行或手動修改衝突
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git reset -q origin/main
+            git add data
+            if git diff --cached --quiet; then echo "沒有新資料"; break; fi
+            git commit -q -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push -q origin HEAD:main && break
+            sleep 5
+          done
 
       - uses: actions/upload-pages-artifact@v3
         with:
