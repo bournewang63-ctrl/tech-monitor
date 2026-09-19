@@ -19,6 +19,8 @@ from dateutil import parser as dparser
 
 UTC = dt.timezone.utc
 UA = "AI-Tech-Monitor/1.0 (+https://github.com; hourly research dashboard)"
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/128.0 Safari/537.36")
 FIXTURES = os.environ.get("AIMON_FIXTURES")  # 離線測試：從資料夾讀取 <source_id>.<ext>
 TAG_RE = re.compile(r"<[^>]+>")
 
@@ -86,8 +88,14 @@ def _hid(*parts) -> str:
 def fetch_rss(src: dict) -> list[dict]:
     text = get(src, src["url"], ext="xml")
     feed = feedparser.parse(text)
+    if feed.bozo and not feed.entries and not FIXTURES:
+        # 部分網站會擋非瀏覽器的請求（回傳 HTML 而非 RSS），改用一般瀏覽器標頭再試一次
+        text = get(src, src["url"], headers={"User-Agent": BROWSER_UA,
+                                             "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8"})
+        feed = feedparser.parse(text)
     if feed.bozo and not feed.entries:
-        raise SourceError(f"RSS 解析失敗：{feed.bozo_exception}")
+        head = re.sub(r"\s+", " ", text[:80])
+        raise SourceError(f"RSS 解析失敗：{feed.bozo_exception}（開頭：{head}）")
     out = []
     for e in feed.entries:
         raw_date = e.get("published") or e.get("updated")
