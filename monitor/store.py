@@ -11,8 +11,40 @@ DATA = Path(os.environ.get("AIMON_DATA", ROOT / "data"))
 ITEMS = DATA / "items"
 
 
+BACKLOG_DAYS = 14  # 首次偵測時已發布超過 14 天的舊文（RSS 第一次抓到的整批歷史文章）不列入統計
+
+
 def month_key(ts: str) -> str:
     return ts[:7]
+
+
+def _ts(s: str | None) -> dt.datetime | None:
+    if not s:
+        return None
+    try:
+        return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def effective_time(it: dict) -> str | None:
+    """統計用時間（UTC ISO）；回傳 None 表示是舊文，不列入。
+    - 一般項目：用發布時間；比首次偵測早超過 14 天就視為舊文
+    - 模型：很久以前建立、最近才上熱門榜 → 用首次偵測時間
+    - 漏洞：用 CISA 加入日"""
+    seen, pub = _ts(it.get("first_seen")), _ts(it.get("published"))
+    if seen is None:
+        return None
+    fmt = lambda d: d.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    if it.get("kind") == "vuln":
+        return fmt(pub or seen)
+    if pub is None or pub > seen + dt.timedelta(hours=1):
+        return fmt(seen)
+    if pub < seen - dt.timedelta(days=BACKLOG_DAYS):
+        return fmt(seen) if it.get("kind") == "model" else None
+    if it.get("kind") == "model" and pub < seen - dt.timedelta(days=7):
+        return fmt(seen)
+    return fmt(pub)
 
 
 def load_months(n: int = 3, today: dt.date | None = None) -> dict[str, dict]:
@@ -29,6 +61,10 @@ def load_months(n: int = 3, today: dt.date | None = None) -> dict[str, dict]:
             for line in p.read_text(encoding="utf-8").splitlines():
                 if line.strip():
                     it = json.loads(line)
+                    t = effective_time(it)
+                    if t is None:  # 舊文：不載入，下次存檔時會一併清掉
+                        continue
+                    it["t"] = t
                     out[it["id"]] = it
     return out
 
