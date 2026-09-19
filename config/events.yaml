@@ -1,0 +1,10 @@
+# 自訂活動清單（會和 sec-deadlines 自動抓到的國際資安會議合併顯示）
+# 日期格式 YYYY-MM-DD；end 可省略。把確定的台灣活動、課程相關研討會加在這裡。
+# 範例（已結束，僅示範格式，可刪除）：
+events:
+  - name: HITCON 2026 台灣駭客年會
+    start: 2026-08-21
+    end: 2026-08-22
+    place: 台北 中研院人文社會科學館
+    link: https://hitcon.org/2026/
+    topic: security_events

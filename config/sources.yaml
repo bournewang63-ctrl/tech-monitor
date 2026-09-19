@@ -1,0 +1,90 @@
+# 資料來源設定
+# type：arxiv / rss / hf_papers / hf_models / github / hn / kev / secdeadlines
+# kind：paper 論文 / model 模型 / repo 專案 / discussion 討論 / news 新聞 / blog 官方部落格 / vuln 漏洞
+# default_topics：關鍵字沒命中時給的主題
+# base_topics：不論關鍵字，一律加上的主題（專門領域來源用，例如資安新聞一律算「資安」）
+# require_match: true 表示沒命中關鍵字就丟掉（綜合性來源用）
+# enabled: false 可暫時關閉某個來源
+
+sources:
+  # ---------------- 論文
+  - {id: arxiv_ai, name: arXiv AI, type: arxiv, kind: paper, max: 150,
+     query: "cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.CV OR cat:cs.RO OR cat:cs.MA",
+     default_topics: [ai_general]}
+  - {id: arxiv_cr, name: arXiv 資安密碼, type: arxiv, kind: paper, max: 80,
+     query: "cat:cs.CR", default_topics: [security]}
+  - {id: arxiv_pqc, name: arXiv 量子密碼, type: arxiv, kind: paper, max: 40,
+     query: 'all:"post-quantum" OR all:"quantum key distribution" OR all:"quantum cryptography"',
+     default_topics: [pqc_quantum]}
+  - {id: arxiv_iot, name: arXiv 物聯網, type: arxiv, kind: paper, max: 40,
+     query: 'all:"internet of things" OR all:IoT OR all:"edge computing"', default_topics: [iot]}
+  - {id: iacr_eprint, name: IACR ePrint, type: rss, kind: paper, url: "https://eprint.iacr.org/rss/rss.xml",
+     base_topics: [crypto]}
+  - {id: hf_papers, name: HF 每日論文, type: hf_papers, kind: paper,
+     url: "https://huggingface.co/api/daily_papers?limit=100", default_topics: [ai_general]}
+
+  # ---------------- 模型與開源專案
+  - {id: hf_models, name: HF 熱門模型, type: hf_models, kind: model,
+     url: "https://huggingface.co/api/models?sort=trendingScore&limit=60", default_topics: [ai_general]}
+  - id: github
+    name: GitHub 新專案
+    type: github
+    kind: repo
+    days: 7          # 只看近 7 天建立的專案
+    per_query: 15
+    queries:         # 主題 key: GitHub 搜尋語法
+      llm: "topic:llm"
+      agent: "topic:ai-agents"
+      multimodal: "topic:multimodal"
+      robotics: "topic:robotics"
+      crypto: "topic:cryptography"
+      pqc_quantum: "topic:post-quantum-cryptography"
+      security: "topic:security"
+      iot: "topic:iot"
+
+  # ---------------- 社群討論
+  - {id: hn_new, name: Hacker News 新文, type: hn, kind: discussion, mode: recent, hours: 3, require_match: true}
+  - {id: hn_front, name: Hacker News 首頁, type: hn, kind: discussion, mode: front_page, require_match: true}
+
+  # ---------------- 官方部落格
+  - {id: openai, name: OpenAI, type: rss, kind: blog, url: "https://openai.com/news/rss.xml", official: true,
+     default_topics: [ai_general]}
+  - {id: deepmind, name: Google DeepMind, type: rss, kind: blog, url: "https://deepmind.google/blog/rss.xml",
+     official: true, default_topics: [ai_general]}
+  - {id: google_ai, name: Google AI, type: rss, kind: blog, url: "https://blog.google/technology/ai/rss/",
+     official: true, default_topics: [ai_general]}
+  - {id: msr, name: Microsoft Research, type: rss, kind: blog, url: "https://www.microsoft.com/en-us/research/feed/",
+     official: true, default_topics: [ai_general]}
+  - {id: nvidia, name: NVIDIA Blog, type: rss, kind: blog, url: "https://blogs.nvidia.com/feed/", official: true,
+     require_match: true}
+  - {id: hf_blog, name: Hugging Face Blog, type: rss, kind: blog, url: "https://huggingface.co/blog/feed.xml",
+     official: true, default_topics: [ai_general]}
+
+  # ---------------- 資安
+  - {id: kev, name: CISA KEV 已遭利用漏洞, type: kev, kind: vuln, days: 30,
+     url: "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
+     base_topics: [security]}
+  - {id: thn, name: The Hacker News, type: rss, kind: news, url: "https://feeds.feedburner.com/TheHackersNews",
+     base_topics: [security]}
+  - {id: bleeping, name: BleepingComputer, type: rss, kind: news, url: "https://www.bleepingcomputer.com/feed/",
+     base_topics: [security]}
+  - {id: darkreading, name: Dark Reading, type: rss, kind: news, url: "https://www.darkreading.com/rss.xml",
+     base_topics: [security]}
+  - {id: krebs, name: Krebs on Security, type: rss, kind: news, url: "https://krebsonsecurity.com/feed/",
+     base_topics: [security]}
+  - {id: schneier, name: Schneier on Security, type: rss, kind: news, url: "https://www.schneier.com/feed/atom/",
+     require_match: true}
+  - {id: secdeadlines, name: sec-deadlines 資安會議, type: secdeadlines,
+     url: "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"}
+
+  # ---------------- 量子、物聯網
+  - {id: quantum_insider, name: The Quantum Insider, type: rss, kind: news, url: "https://thequantuminsider.com/feed/",
+     default_topics: [pqc_quantum]}
+  - {id: iottechnews, name: IoT Tech News, type: rss, kind: news, url: "https://www.iottechnews.com/feed/",
+     base_topics: [iot]}
+
+  # ---------------- 中文科技新聞（只收命中關鍵字的）
+  - {id: ithome, name: iThome, type: rss, kind: news, url: "https://www.ithome.com.tw/rss", lang: zh,
+     tz: "+08:00", require_match: true}
+  - {id: technews, name: 科技新報, type: rss, kind: news, url: "https://technews.tw/feed/", lang: zh,
+     tz: "+08:00", require_match: true}
