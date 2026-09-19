@@ -1,0 +1,64 @@
+name: 每小時更新監測儀表板
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # 每小時第 17 分執行（UTC，避開整點尖峰）
+  workflow_dispatch:           # 可在 Actions 頁面手動執行
+  push:
+    branches: [main]
+    paths: ["config/**", "build.py", "collect.py", "monitor/**"]
+
+permissions:
+  contents: write              # 把新資料 commit 回倉庫
+  pages: write
+  id-token: write
+
+concurrency:
+  group: hourly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安裝套件
+        run: pip install -r requirements.txt
+
+      - name: 收集資料
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 讓 GitHub 搜尋 API 有較高額度
+        run: python collect.py
+
+      - name: 產生儀表板
+        run: python build.py
+
+      - name: 儲存資料到倉庫
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "沒有新資料"
+          else
+            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash || true
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
