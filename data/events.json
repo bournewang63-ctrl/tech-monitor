@@ -1,0 +1,3713 @@
+{
+ "events": [
+  {
+   "deadlines": [
+    "2026-06-12",
+    "2026-11-18"
+   ],
+   "desc": "IEEE Symposium on Security and Privacy",
+   "end": "2027-05-20",
+   "link": "https://sp2027.ieee-security.org/",
+   "name": "S&P (Oakland) 2027",
+   "place": "Montreal, Canada",
+   "source": "sec-deadlines",
+   "start": "2027-05-17",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "ASTAR",
+    "TOP4"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-15",
+    "2026-04-30"
+   ],
+   "desc": "ACM Conference on Computer and Communications Security",
+   "end": "2026-11-19",
+   "link": "https://www.sigsac.org/ccs/CCS2026",
+   "name": "CCS 2026",
+   "place": "The Hague, The Netherlands",
+   "source": "sec-deadlines",
+   "start": "2026-11-15",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "ASTAR",
+    "TOP4"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-26",
+    "2027-01-27"
+   ],
+   "desc": "USENIX Security Symposium",
+   "end": "2027-08-13",
+   "link": "https://www.usenix.org/conference/usenixsecurity27",
+   "name": "USENIX Security 2027",
+   "place": "Denver, CO, USA",
+   "source": "sec-deadlines",
+   "start": "2027-08-11",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "ASTAR",
+    "TOP4"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-07",
+    "2026-08-20"
+   ],
+   "desc": "ISOC Network and Distributed System Security Symposium",
+   "end": "2027-03-26",
+   "link": "https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/",
+   "name": "NDSS 2027",
+   "place": "Seoul, Republic of Korea",
+   "source": "sec-deadlines",
+   "start": "2027-03-22",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "ASTAR",
+    "TOP4"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-10",
+    "2026-04-22"
+   ],
+   "desc": "European Symposium on Research in Computer Security",
+   "end": "2026-09-18",
+   "link": "https://sites.google.com/di.uniroma1.it/esorics2026/",
+   "name": "ESORICS 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-14",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-22",
+    "2026-12-12"
+   ],
+   "desc": "ACM Asia Conference on Computer and Communications Security",
+   "end": "2027-07-16",
+   "link": "https://asiaccs2027.cityu.edu.mo/home/index.html",
+   "name": "ASIA CCS 2027",
+   "place": "Macau",
+   "source": "sec-deadlines",
+   "start": "2027-07-12",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-12-03"
+   ],
+   "desc": "IEEE European Symposium on Security and Privacy",
+   "end": "2027-07-09",
+   "link": "https://eurosp2027.ieee-security.org/",
+   "name": "Euro S&P 2027",
+   "place": "Madrid, Spain",
+   "source": "sec-deadlines",
+   "start": "2027-07-05",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-04",
+    "2026-10-16",
+    "2027-01-29"
+   ],
+   "desc": "IEEE Computer Security Foundations Symposium",
+   "end": null,
+   "link": "https://www.ieee-security.org/TC/CSF2027/",
+   "name": "CSF 2027",
+   "place": "Tokyo, Japan",
+   "source": "sec-deadlines",
+   "start": null,
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-20"
+   ],
+   "desc": "International Conference on Cryptology and Network Security",
+   "end": "2026-11-25",
+   "link": "https://uow-ic2.github.io/cans2026/index.html",
+   "name": "CANS 2026",
+   "place": "Wollongong, Australia",
+   "source": "sec-deadlines",
+   "start": "2026-11-23",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-11-19",
+    "2026-03-04"
+   ],
+   "desc": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+   "end": "2026-07-03",
+   "link": "https://wisec26.events.cispa.de/",
+   "name": "WiSec 2026",
+   "place": "Saarbrücken, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-06-30",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-20"
+   ],
+   "desc": "IFIP International Information Security and Privacy Conference",
+   "end": "2026-06-11",
+   "link": "https://ifipsec.org/cfp.html",
+   "name": "IFIP SEC 2026",
+   "place": "Perth, Australia",
+   "source": "sec-deadlines",
+   "start": "2026-06-09",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-03"
+   ],
+   "desc": "Information Security Conference",
+   "end": "2026-10-30",
+   "link": "https://isc2026.github.io/",
+   "name": "ISC 2026",
+   "place": "Rennes, France",
+   "source": "sec-deadlines",
+   "start": "2026-10-28",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-08-02"
+   ],
+   "desc": "International Conference on Trust, Security and Privacy in Computing and Communications",
+   "end": "2025-11-17",
+   "link": "https://ieee-aiplus-2025.org/trustcom.html",
+   "name": "TrustCom 2025",
+   "place": "Guiyang, China",
+   "source": "sec-deadlines",
+   "start": "2025-11-14",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-21"
+   ],
+   "desc": "International Symposium on Foundations & Practice of Security",
+   "end": "2026-10-16",
+   "link": "https://fps2026.uqo.ca/",
+   "name": "FPS 2026",
+   "place": "Gatineau, Canada",
+   "source": "sec-deadlines",
+   "start": "2026-10-13",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-16"
+   ],
+   "desc": "International Conference on Security and Privacy in Communication Networks",
+   "end": "2026-07-24",
+   "link": "https://securecomm.eai-conferences.org/2026/",
+   "name": "SecureComm 2026",
+   "place": "Lancaster, United Kingdom",
+   "source": "sec-deadlines",
+   "start": "2026-07-21",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-01",
+    "2026-05-16",
+    "2026-07-16"
+   ],
+   "desc": "International Symposium on Stabilization, Safety, and Security of Distributed Systems",
+   "end": "2026-10-11",
+   "link": "https://sss2026.conf.lip6.fr/",
+   "name": "SSS 2026",
+   "place": "Gothenburg, Sweden",
+   "source": "sec-deadlines",
+   "start": "2026-10-09",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-26"
+   ],
+   "desc": "Digital Forensics Conference Europe",
+   "end": "2027-04-02",
+   "link": "https://dfrws.org/conferences/dfceurope2027/",
+   "name": "DFC Europe 2027",
+   "place": "Edinburgh, Scotland",
+   "source": "sec-deadlines",
+   "start": "2027-03-30",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [],
+   "desc": "Privacy Enhancing Technologies Symposium",
+   "end": "2027-07-24",
+   "link": "https://www.petsymposium.org/cfp27.php",
+   "name": "PETS 2027",
+   "place": "Delft, Netherlands",
+   "source": "sec-deadlines",
+   "start": "2027-07-19",
+   "tags": [
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-20"
+   ],
+   "desc": "Symposium on Usable Privacy and Security",
+   "end": "2026-08-26",
+   "link": "https://soups.page/",
+   "name": "SOUPS 2026",
+   "place": "Hannover, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-08-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-05-10"
+   ],
+   "desc": "European Symposium on Usable Security",
+   "end": "2025-09-11",
+   "link": "https://eurousec2025.cis.strath.ac.uk/",
+   "name": "EuroUSEC 2025",
+   "place": "Manchester, UK",
+   "source": "sec-deadlines",
+   "start": "2025-09-10",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-14"
+   ],
+   "desc": "The Annual Symposium on Applications of Contextual Integrity",
+   "end": "2026-06-25",
+   "link": "https://privaci.info/symposium/2026/cfp.html",
+   "name": "PrivaCI 2026",
+   "place": "Urbana-Champaign, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-24",
+   "tags": [
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-29"
+   ],
+   "desc": "Annual International Conference on Privacy, Security, and Trust",
+   "end": "2026-08-28",
+   "link": "https://pstnet.ca/pst2026",
+   "name": "PST 2026",
+   "place": "Ottawa, Canada",
+   "source": "sec-deadlines",
+   "start": "2026-08-26",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-16"
+   ],
+   "desc": "Annual Privacy Forum",
+   "end": "2026-09-10",
+   "link": "https://privacyforum.eu/callforpapers.html",
+   "name": "APF 2026",
+   "place": "Salzburg, Austria",
+   "source": "sec-deadlines",
+   "start": "2026-09-09",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-13"
+   ],
+   "desc": "International Cryptology Conference",
+   "end": "2026-08-20",
+   "link": "https://crypto.iacr.org/2026/",
+   "name": "Crypto 2026",
+   "place": "Santa Barbara, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-08-17",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "ASTAR"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-18"
+   ],
+   "desc": "European Cryptology Conference",
+   "end": "2027-04-15",
+   "link": "https://eurocrypt.iacr.org/2027/",
+   "name": "Eurocrypt 2027",
+   "place": "Eindhoven, Netherlands",
+   "source": "sec-deadlines",
+   "start": "2027-04-11",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "ASTAR"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-03",
+    "2026-05-12"
+   ],
+   "desc": "Selected Areas in Cryptography",
+   "end": "2026-08-28",
+   "link": "https://sacworkshop.org/SAC26/",
+   "name": "SAC 2026",
+   "place": "Ottawa, ON, Canada",
+   "source": "sec-deadlines",
+   "start": "2026-08-26",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-23"
+   ],
+   "desc": "International Conference on the Theory and Application of Cryptology and Information Security",
+   "end": "2026-12-11",
+   "link": "https://asiacrypt.iacr.org/2026/",
+   "name": "Asiacrypt 2026",
+   "place": "Hong Kong, China",
+   "source": "sec-deadlines",
+   "start": "2026-12-07",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-25"
+   ],
+   "desc": "Financial Cryptography and Data Security",
+   "end": "2027-02-12",
+   "link": "https://fc27.ifca.ai/",
+   "name": "FC 2027",
+   "place": "Barbados",
+   "source": "sec-deadlines",
+   "start": "2027-02-08",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-28"
+   ],
+   "desc": "ACM Conference on Advances in Financial Technologies",
+   "end": "2026-10-09",
+   "link": "https://aft.ifca.ai/aft26/CFP.html",
+   "name": "AFT 2026",
+   "place": "London, UK",
+   "source": "sec-deadlines",
+   "start": "2026-10-06",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-20"
+   ],
+   "desc": "Theory of Cryptography Conference",
+   "end": "2026-11-13",
+   "link": "https://tcc.iacr.org/2026/",
+   "name": "TCC 2026",
+   "place": "New York City, USA",
+   "source": "sec-deadlines",
+   "start": "2026-11-10",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-17"
+   ],
+   "desc": "International Conference on Practice and Theory of Public Key Cryptography",
+   "end": "2027-03-04",
+   "link": "https://pkc.iacr.org/2027/",
+   "name": "PKC 2027",
+   "place": "Taipei, Taiwan",
+   "source": "sec-deadlines",
+   "start": "2027-03-01",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-10-23"
+   ],
+   "desc": "RSA Conference Cryptographers’ Track",
+   "end": "2027-04-08",
+   "link": "https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/",
+   "name": "CT-RSA 2027",
+   "place": "San Francisco, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2027-04-05",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-04",
+    "2026-04-17"
+   ],
+   "desc": "International Conference on Security and Cryptography",
+   "end": "2026-07-18",
+   "link": "https://secrypt.scitevents.org",
+   "name": "SECRYPT 2026",
+   "place": "Porto, Portugal",
+   "source": "sec-deadlines",
+   "start": "2026-07-16",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-02"
+   ],
+   "desc": "International Conference on Cryptography Africa",
+   "end": "2026-07-10",
+   "link": "https://www.africacrypt2026.tn/",
+   "name": "AfricaCrypt 2026",
+   "place": "Hammamet, Tunisia",
+   "source": "sec-deadlines",
+   "start": "2026-07-08",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-05-17"
+   ],
+   "desc": "International Conference on Cryptology and Information Security in Latin America",
+   "end": "2025-10-03",
+   "link": "https://ciencias.medellin.unal.edu.co/eventos/latincrypt/",
+   "name": "LATINCRYPT 2025",
+   "place": "Medellin, Colombia",
+   "source": "sec-deadlines",
+   "start": "2025-10-01",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [],
+   "desc": "IACR Transactions on Symmetric Cryptology",
+   "end": "2027-05-28",
+   "link": "https://fse.iacr.org/2027/",
+   "name": "FSE 2027",
+   "place": "Maastricht, Netherlands",
+   "source": "sec-deadlines",
+   "start": "2027-05-24",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-B",
+    "JRN"
+   ]
+  },
+  {
+   "deadlines": [],
+   "desc": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+   "end": "2027-09-09",
+   "link": "https://ches.iacr.org/2027/",
+   "name": "CHES 2027",
+   "place": "Cancún, Mexico",
+   "source": "sec-deadlines",
+   "start": "2027-09-06",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "JRN",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-01"
+   ],
+   "desc": "IMA International Conference on Cryptography and Coding",
+   "end": "2026-12-16",
+   "link": "https://ima.org.uk/28271/20th-ima-international-conference-on-cryptography-and-coding/",
+   "name": "C&C 2026",
+   "place": "Cirencester, UK",
+   "source": "sec-deadlines",
+   "start": "2026-12-15",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-11"
+   ],
+   "desc": "ACM Conference on Post-Quantum and Quantum-based Security",
+   "end": "2026-11-04",
+   "link": "https://www.pqqs.org",
+   "name": "PQQS 2026",
+   "place": "San Jose, USA",
+   "source": "sec-deadlines",
+   "start": "2026-11-02",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-17"
+   ],
+   "desc": "International Symposium on Research in Attacks, Intrusions and Defenses",
+   "end": "2026-10-14",
+   "link": "https://raid2026.org",
+   "name": "RAID 2026",
+   "place": "Lancaster, UK",
+   "source": "sec-deadlines",
+   "start": "2026-10-11",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-10-03"
+   ],
+   "desc": "ACM/SIGAPP Symposium On Applied Computing",
+   "end": "2027-04-09",
+   "link": "https://www.sigapp.org/sac/sac2027",
+   "name": "SAC 2027",
+   "place": "Gwangju, South Korea",
+   "source": "sec-deadlines",
+   "start": "2027-04-05",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-27"
+   ],
+   "desc": "Annual Computer Security Applications Conference",
+   "end": "2026-12-11",
+   "link": "https://www.acsac.org/2026/submissions/papers/",
+   "name": "ACSAC 2026",
+   "place": "Los Angeles, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-12-07",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-12-03"
+   ],
+   "desc": "The International Conference on Dependable Systems and Networks",
+   "end": "2027-06-25",
+   "link": "https://dsn2027-berlin.github.io/",
+   "name": "DSN 2027",
+   "place": "Berlin, Germany",
+   "source": "sec-deadlines",
+   "start": "2027-06-22",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-25",
+    "2027-01-22"
+   ],
+   "desc": "International Conference on Applied Cryptography and Network Security",
+   "end": "2027-07-01",
+   "link": "https://acns2027.isg.rhul.ac.uk/",
+   "name": "ACNS 2027",
+   "place": "Egham, Surrey, UK",
+   "source": "sec-deadlines",
+   "start": "2027-06-28",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-04",
+    "2026-02-12"
+   ],
+   "desc": "The Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
+   "end": "2026-07-03",
+   "link": "https://www.dimva.org/dimva2026/",
+   "name": "DIMVA 2026",
+   "place": "Chania, Greece",
+   "source": "sec-deadlines",
+   "start": "2026-07-01",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-10-31",
+    "2027-02-13"
+   ],
+   "desc": "ACM Symposium on Access Control Models and Technologies",
+   "end": "2027-07-21",
+   "link": "https://www.sacmat.org/2027/",
+   "name": "SACMAT 2027",
+   "place": "Durham, England, United Kingdom",
+   "source": "sec-deadlines",
+   "start": "2027-07-19",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "CONF",
+    "PRIV",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-10"
+   ],
+   "desc": "International Conference on Availability, Reliability and Security",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/",
+   "name": "ARES 2026",
+   "place": "Linköping, Sweden",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-03"
+   ],
+   "desc": "ACM Conference on Data and Application Security and Privacy",
+   "end": "2026-06-25",
+   "link": "http://www.codaspy.org/2026/",
+   "name": "CODASPY 2026",
+   "place": "Frankfurt am Main, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-06-23",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "CONF",
+    "PRIV",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-03-28"
+   ],
+   "desc": "IFIP WG 11.3 Conference on Data and Applications Security and Privacy",
+   "end": "2026-07-30",
+   "link": "https://dbsec2026.gmu.edu/",
+   "name": "DBSec 2026",
+   "place": "Arlington, Virginia, USA",
+   "source": "sec-deadlines",
+   "start": "2026-07-28",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "CONF",
+    "PRIV",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-10-26"
+   ],
+   "desc": "The ACM Web Conference",
+   "end": "2027-05-14",
+   "link": "https://acmweb2027.org/",
+   "name": "WWW 2027",
+   "place": "Dublin, Ireland",
+   "source": "sec-deadlines",
+   "start": "2027-05-10",
+   "tags": [
+    "SEC",
+    "CONF",
+    "PRIV",
+    "ASTAR"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-11"
+   ],
+   "desc": "ACM SIGOPS Annual Technical Conference",
+   "end": "2026-11-18",
+   "link": "https://sigops.org/s/conferences/atc/2026/index.html",
+   "name": "ATC 2026",
+   "place": "Shatin, Hong Kong",
+   "source": "sec-deadlines",
+   "start": "2026-11-15",
+   "tags": [
+    "SEC",
+    "CONF",
+    "PRIV",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-31"
+   ],
+   "desc": "The Symposium on Electronic Crime Research",
+   "end": "2026-11-06",
+   "link": "https://apwg.org/events/ecrime2026",
+   "name": "eCrime 2026",
+   "place": "Lisbon, Portugal",
+   "source": "sec-deadlines",
+   "start": "2026-11-02",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-10-09"
+   ],
+   "desc": "Passive and Active Measurement Conference",
+   "end": "2026-03-25",
+   "link": "https://pam2026.at/",
+   "name": "PAM 2026",
+   "place": "Virtual",
+   "source": "sec-deadlines",
+   "start": "2026-03-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-25"
+   ],
+   "desc": "USENIX Symposium on Vehicle Security and Privacy",
+   "end": "2026-08-11",
+   "link": "https://www.usenix.org/conference/vehiclesec26",
+   "name": "VehicleSec 2026",
+   "place": "Baltimore, USA",
+   "source": "sec-deadlines",
+   "start": "2026-08-10",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2027-02-05"
+   ],
+   "desc": "USENIX Conference on Secure Agentic-AI Systems",
+   "end": "2027-06-08",
+   "link": "https://www.usenix.org/conference/sais27",
+   "name": "SAIS 2027",
+   "place": "Santa Clara, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2027-06-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-20"
+   ],
+   "desc": "International Symposium on Network Computing and Applications",
+   "end": "2026-11-13",
+   "link": "https://www.nca-ieee.org/2026/index.html",
+   "name": "NCA 2026",
+   "place": "Ortigia-Syracuse (Sicily), Italy",
+   "source": "sec-deadlines",
+   "start": "2026-11-10",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-B"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-16"
+   ],
+   "desc": "International Conference on Risks and Security of Internet and Systems",
+   "end": "2026-11-27",
+   "link": "https://sites.google.com/view/crisis26",
+   "name": "CRISIS 2026",
+   "place": "Rabat, Morocco",
+   "source": "sec-deadlines",
+   "start": "2026-11-25",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-01"
+   ],
+   "desc": "International Conference on Provable and Practical Security",
+   "end": "2026-09-26",
+   "link": "https://provsec-2026.github.io/Provsec2026-base/",
+   "name": "ProvSec 2026",
+   "place": "Queenstown, New Zealand",
+   "source": "sec-deadlines",
+   "start": "2026-09-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-11-21",
+    "2026-04-30"
+   ],
+   "desc": "ACM Internet Measurement Conference",
+   "end": "2026-11-06",
+   "link": "https://conferences.sigcomm.org/imc/2026/",
+   "name": "IMC 2026",
+   "place": "Karlsruhe, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-11-03",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-23",
+    "2026-11-09"
+   ],
+   "desc": "IEEE International Symposium on Hardware Oriented Security and Trust",
+   "end": "2027-05-06",
+   "link": "https://host.conferences.computer.org/2027/",
+   "name": "HOST 2027",
+   "place": "Washington DC, USA",
+   "source": "sec-deadlines",
+   "start": "2027-05-03",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-15"
+   ],
+   "desc": "Asian Hardware Oriented Security and Trust Symposium",
+   "end": "2026-12-13",
+   "link": "https://www.asianhost.org/2026/",
+   "name": "AsianHOST 2026",
+   "place": "Kharagpur, India",
+   "source": "sec-deadlines",
+   "start": "2026-12-11",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-04-16",
+    "2025-06-16"
+   ],
+   "desc": "International Conference on Information Security and Cryptology",
+   "end": "2026-11-09",
+   "link": "https://inscrypt2026.comp.polyu.edu.hk/",
+   "name": "Inscrypt 2026",
+   "place": "Hong Kong SAR, China",
+   "source": "sec-deadlines",
+   "start": "2026-11-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-04",
+    "2026-11-11"
+   ],
+   "desc": "Constructive Approaches for Security Analysis and Design of Embedded Systems",
+   "end": "2027-04-07",
+   "link": "https://cascade-conference.org/",
+   "name": "CASCADE 2027",
+   "place": "Heilbronn, Germany",
+   "source": "sec-deadlines",
+   "start": "2027-04-04",
+   "tags": [
+    "CRYPTO",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-16"
+   ],
+   "desc": "IEEE Conference on Dependable and Secure Computing",
+   "end": "2026-10-11",
+   "link": "https://attend.ieee.org/dsc/",
+   "name": "DSC 2026",
+   "place": "NYC, USA",
+   "source": "sec-deadlines",
+   "start": "2026-10-09",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2027-02-01"
+   ],
+   "desc": "International Symposium on Digital Forensics and Security",
+   "end": "2027-03-26",
+   "link": "https://www.isdfs.org/2027/",
+   "name": "ISDFS 2027",
+   "place": "San Jose, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2027-03-25",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-01"
+   ],
+   "desc": "IEEE/ACM International Conference on Software Engineering",
+   "end": "2027-05-01",
+   "link": "https://conf.researchr.org/home/icse-2027",
+   "name": "ICSE 2027",
+   "place": "Dublin, Ireland",
+   "source": "sec-deadlines",
+   "start": "2027-04-25",
+   "tags": [
+    "SEC",
+    "CONF",
+    "ASTAR"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-27"
+   ],
+   "desc": "IEEE/ACM Automated Software Engineering",
+   "end": "2026-10-16",
+   "link": "https://conf.researchr.org/home/ase-2026",
+   "name": "ASE 2026",
+   "place": "Munich, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-10-12",
+   "tags": [
+    "SEC",
+    "CONF",
+    "ASTAR"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-10-03"
+   ],
+   "desc": "ACM International Conference on the Foundations of Software Engineering",
+   "end": "2027-07-16",
+   "link": "https://conf.researchr.org/home/fse-2027",
+   "name": "ESEC/FSE 2027",
+   "place": "Shenzhen, China",
+   "source": "sec-deadlines",
+   "start": "2027-07-12",
+   "tags": [
+    "SEC",
+    "CONF",
+    "ASTAR"
+   ]
+  },
+  {
+   "deadlines": [
+    "2027-01-12"
+   ],
+   "desc": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+   "end": "2027-09-10",
+   "link": "https://conf.researchr.org/home/issta-2027",
+   "name": "ISSTA 2027",
+   "place": "Singapore",
+   "source": "sec-deadlines",
+   "start": "2027-09-07",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CORE-A"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-04-17",
+    "2025-07-01"
+   ],
+   "desc": "ESA Security for Space Systems Conference",
+   "end": "2025-11-06",
+   "link": "https://security4space.esa.int/2025/cfp/",
+   "name": "Security for Space Systems (3S) 2025",
+   "place": "ESTEC, Noordwijk, Netherlands",
+   "source": "sec-deadlines",
+   "start": "2025-11-04",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-16"
+   ],
+   "desc": "Security Standardisation Research Conference",
+   "end": "2026-12-15",
+   "link": "https://ssresearch26.umbc.edu/",
+   "name": "SSR 2026",
+   "place": "Baltimore, MD, USA",
+   "source": "sec-deadlines",
+   "start": "2026-12-13",
+   "tags": [
+    "SEC",
+    "CONF",
+    "CRYPTO",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2023-11-06"
+   ],
+   "desc": "IEEE International Symposium on Secure and Private Execution Environment Design",
+   "end": "2024-01-30",
+   "link": "https://seed-symposium.org/2024/",
+   "name": "SEED 2024",
+   "place": "Orlando, FL",
+   "source": "sec-deadlines",
+   "start": "2024-01-29",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-07-02"
+   ],
+   "desc": "International Conference on Network and System Security and International Symposium on Security and Privacy in Social Networks and Big Data",
+   "end": "2024-11-22",
+   "link": "http://nsclab.org/nss-socialsec2024/index.html",
+   "name": "NSS-SocialSec 2024",
+   "place": "Abu Dhabi, UAE",
+   "source": "sec-deadlines",
+   "start": "2024-11-20",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-04-21"
+   ],
+   "desc": "International Conference on IT Security Incident Management and IT Forensics",
+   "end": "2026-09-16",
+   "link": "https://www.imf-conference.org/cfp.html",
+   "name": "IMF 2026",
+   "place": "Bonn, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-09-15",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-01"
+   ],
+   "desc": "International Conference on Science of Cyber Security",
+   "end": "2026-05-31",
+   "link": "https://scisec.org/",
+   "name": "SciSec 2026",
+   "place": "Beijing, China",
+   "source": "sec-deadlines",
+   "start": "2026-05-29",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-05"
+   ],
+   "desc": "International Conference on Design of Cyber-Secure Critical Infrastructure",
+   "end": "2026-09-03",
+   "link": "https://dcs-ci.github.io",
+   "name": "DCS-CI 2026",
+   "place": "Buford, Georgia, USA",
+   "source": "sec-deadlines",
+   "start": "2026-09-02",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-26"
+   ],
+   "desc": "Conference on Sociotechnical Cybersecurity and Privacy",
+   "end": "2026-09-03",
+   "link": "https://scpconf.eu/",
+   "name": "SCP 2026",
+   "place": "Belval, Luxembourg",
+   "source": "sec-deadlines",
+   "start": "2026-09-02",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-12-01",
+    "2027-03-02"
+   ],
+   "desc": "Australasian Conference on Information Security and Privacy",
+   "end": "2027-07-10",
+   "link": "https://acisp.org/",
+   "name": "ACISP 2027",
+   "place": "Melbourne, Australia",
+   "source": "sec-deadlines",
+   "start": "2027-07-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-12-10"
+   ],
+   "desc": "Italian Conference on Cybersecurity",
+   "end": "2025-02-08",
+   "link": "https://itasec.it/",
+   "name": "ITASEC 2025",
+   "place": "Bologna, IT",
+   "source": "sec-deadlines",
+   "start": "2025-02-03",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-16"
+   ],
+   "desc": "Intelligent Cybersecurity Conference",
+   "end": "2026-09-18",
+   "link": "https://icsc-conference.org/2026/",
+   "name": "ICSC 2026",
+   "place": "Abu Dhabi, UAE",
+   "source": "sec-deadlines",
+   "start": "2026-09-15",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-01",
+    "2026-05-24"
+   ],
+   "desc": "International Conference on Information and Communications Security",
+   "end": "2026-10-30",
+   "link": "https://sulab-sever.u-aizu.ac.jp/icics2026/index.html",
+   "name": "ICICS 2026",
+   "place": "Fukui, Japan",
+   "source": "sec-deadlines",
+   "start": "2026-10-27",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-30"
+   ],
+   "desc": "IEEE Conference on Secure and Trustworthy Machine Learning",
+   "end": null,
+   "link": "https://satml.org/",
+   "name": "SaTML 2027",
+   "place": "Reykjavik, Iceland",
+   "source": "sec-deadlines",
+   "start": null,
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-28"
+   ],
+   "desc": "Nordic Conference on Secure IT Systems",
+   "end": "2026-11-12",
+   "link": "http://nordsec2026.dk/",
+   "name": "NordSec 2026",
+   "place": "Aarhus, Denmark",
+   "source": "sec-deadlines",
+   "start": "2026-11-11",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-06"
+   ],
+   "desc": "Secure Development Conference",
+   "end": "2026-07-06",
+   "link": "https://conf.researchr.org/home/secdev-2026",
+   "name": "SecDev 2026",
+   "place": "Montreal, Canada",
+   "source": "sec-deadlines",
+   "start": "2026-07-05",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-16",
+    "2026-08-23"
+   ],
+   "desc": "IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications",
+   "end": "2026-11-06",
+   "link": "https://tps.ieee-cs.org/2026/call-for-papers/",
+   "name": "TPS-ISA 2026",
+   "place": "San Jose, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-11-04",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-16",
+    "2026-08-23"
+   ],
+   "desc": "IEEE International Conference on Resilience and Integrated Security for Space and Critical Systems",
+   "end": "2026-11-06",
+   "link": "https://risc.ieee-cs.org/2026/call-for-papers/",
+   "name": "RISC 2026",
+   "place": "San Jose, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-11-04",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-01"
+   ],
+   "desc": "International Conference on Emerging Trends in Cybersecurity",
+   "end": "2026-10-13",
+   "link": "https://ritechs.org/conferences/ICETCS2026",
+   "name": "ICETCS 2026",
+   "place": "Genoa, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-10-12",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-02",
+    "2026-08-08"
+   ],
+   "desc": "International Conference on Information Security Practice and Experience",
+   "end": "2026-11-08",
+   "link": "https://ispec2026.github.io/",
+   "name": "ISPEC 2026",
+   "place": "Xi'an, China",
+   "source": "sec-deadlines",
+   "start": "2026-11-06",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CORE-C"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-08"
+   ],
+   "desc": "International Conference on Security for Information Technology and Communications",
+   "end": "2026-11-13",
+   "link": "https://secitc.eu/",
+   "name": "SECITC 2026",
+   "place": "Bucharest, Romania",
+   "source": "sec-deadlines",
+   "start": "2026-11-12",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "CONF",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-11"
+   ],
+   "desc": "Workshop on Human-Targeted Cyber Threats and Defenses",
+   "end": "2026-09-18",
+   "link": "https://humsec26.github.io/",
+   "name": "HumSec 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-18",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-08"
+   ],
+   "desc": "Assessment with New methodologies, Unified Benchmarks, and environments, of Intrusion detection and response Systems",
+   "end": "2026-09-18",
+   "link": "https://superviz.inria.fr/anubis26/",
+   "name": "ANUBIS 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-18",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-17"
+   ],
+   "desc": "Workshop on Trustworthy AI for IoMT (Internet of Medical Things)",
+   "end": "2026-06-01",
+   "link": "https://trustai2026.web.illinois.edu/",
+   "name": "TRUST-AI 2026",
+   "place": "Minneapolis, MN, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-01",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-15"
+   ],
+   "desc": "ACNS Workshop on Artificial Intelligence in Hardware Security",
+   "end": "2026-06-25",
+   "link": "http://aihws2026.aisylab.com/",
+   "name": "AIHWS 2026",
+   "place": "Stony Brook, New York, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-25",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-31",
+    "2026-03-14"
+   ],
+   "desc": "International Workshop on Artificial Intelligence and IoT Security",
+   "end": "2026-06-22",
+   "link": "https://aiots26.github.io/main/",
+   "name": "AIoTS 2026",
+   "place": "Stony Brook, NY, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-22",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-31",
+    "2026-03-23"
+   ],
+   "desc": "International Workshop on Critical Infrastructure and Maritime Systems Security",
+   "end": "2026-06-25",
+   "link": "https://cimss2026.github.io/",
+   "name": "CIMSS 2026",
+   "place": "Stony Brook University, NY, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-22",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-21"
+   ],
+   "desc": "ACNS Workshop on Intelligent and Secure Computing",
+   "end": "2026-06-20",
+   "link": "https://acns-isc.github.io/2026/index.html",
+   "name": "ACNS-ISC 2026",
+   "place": "Stony Brook University, NY, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-20",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-03-16"
+   ],
+   "desc": "ACNS Workshop on Secure Cryptographic Implementation",
+   "end": "2025-06-24",
+   "link": "https://acns-sci.github.io/",
+   "name": "SCI 2025",
+   "place": "Munich, Germany",
+   "source": "sec-deadlines",
+   "start": "2025-06-24",
+   "tags": [
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-21"
+   ],
+   "desc": "International Workshop on Security in Machine Learning and its Applications",
+   "end": "2026-06-25",
+   "link": "https://simlaacns.github.io/",
+   "name": "SiMLA 2026",
+   "place": "Stony Brook University, NY, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-22",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-01"
+   ],
+   "desc": "The Joint Workshop on CPS & IoT Security and Privacy",
+   "end": "2026-11-19",
+   "link": "https://sites.google.com/view/cpsiotsec2026",
+   "name": "CPSIoTSec 2026",
+   "place": "The Hague, The Netherlands",
+   "source": "sec-deadlines",
+   "start": "2026-11-15",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-25"
+   ],
+   "desc": "Workshop on Artificial Intelligence and Security",
+   "end": "2026-11-19",
+   "link": "https://aisec.cc",
+   "name": "AISec 2026",
+   "place": "The Hague, The Netherlands",
+   "source": "sec-deadlines",
+   "start": "2026-11-15",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-06"
+   ],
+   "desc": "ACM SIGEnergy Workshop on Cybersecurity and Privacy of Energy Systems",
+   "end": "2026-06-22",
+   "link": "https://energysp.github.io/",
+   "name": "EnergySP 2026",
+   "place": "Banff, Canada",
+   "source": "sec-deadlines",
+   "start": "2026-06-22",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS",
+    "PRIV"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-02-21"
+   ],
+   "desc": "Workshop on Rethinking Malware Analysis",
+   "end": "2025-06-30",
+   "link": "https://worma.gitlab.io/2025/",
+   "name": "WoRMA 2025",
+   "place": "Venice, Italy",
+   "source": "sec-deadlines",
+   "start": "2025-06-30",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-08"
+   ],
+   "desc": "Workshop on System Software for Trusted Execution",
+   "end": "2026-04-27",
+   "link": "https://systex-workshop.github.io/2026/",
+   "name": "SysTEX 2026",
+   "place": "Edinburgh, Scotland",
+   "source": "sec-deadlines",
+   "start": "2026-04-27",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-29"
+   ],
+   "desc": "Industrial Control System Security Workshop",
+   "end": "2026-12-08",
+   "link": "https://www.acsac.org/2026/workshops/icss/",
+   "name": "ICSS 2026",
+   "place": "Los Angeles, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-12-08",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-10-07"
+   ],
+   "desc": "Workshop Encouraging Building Better Blockchain Security",
+   "end": "2024-12-09",
+   "link": "https://www.acsac.org/2024/workshops/web3sec/",
+   "name": "WEB3SEC 2024",
+   "place": "Waikiki, Hawaii, USA",
+   "source": "sec-deadlines",
+   "start": "2024-12-09",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-16"
+   ],
+   "desc": "Workshop on Recent Advances in Resilient and Trustworthy MAchine learning-driveN systems",
+   "end": "2026-12-08",
+   "link": "https://artman-workshop.gitlab.io/",
+   "name": "ARTMAN 2026",
+   "place": "Los Angeles, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-12-08",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-08-08"
+   ],
+   "desc": "Workshop on Decentralized Finance and Security",
+   "end": "2026-11-19",
+   "link": "https://defiwork.shop/",
+   "name": "DeFi 2026",
+   "place": "The Hague, Netherlands",
+   "source": "sec-deadlines",
+   "start": "2026-11-15",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-18"
+   ],
+   "desc": "Workshop on Privacy in the Electronic Society",
+   "end": "2026-11-16",
+   "link": "https://wpes2026.github.io/",
+   "name": "WPES 2026",
+   "place": "The Hague, The Netherlands",
+   "source": "sec-deadlines",
+   "start": "2026-11-16",
+   "tags": [
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-01"
+   ],
+   "desc": "New Security Paradigms Workshop",
+   "end": "2026-09-30",
+   "link": "https://www.nspw.org/2026/cfp",
+   "name": "NSPW 2026",
+   "place": "Victoria, Canada",
+   "source": "sec-deadlines",
+   "start": "2026-09-27",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "IEEE Conference on Communications and Network Security",
+   "end": "2026-09-17",
+   "link": "https://cns2026.ieee-cns.org/",
+   "name": "CNS 2026",
+   "place": "Newark, DE, USA",
+   "source": "sec-deadlines",
+   "start": "2026-09-14",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-07-28"
+   ],
+   "desc": "Hardware and Architectural Support for Security and Privacy",
+   "end": "2025-10-18",
+   "link": "https://haspworkshop.org/2025/index.html",
+   "name": "HASP 2025",
+   "place": "Seoul, Korea",
+   "source": "sec-deadlines",
+   "start": "2025-10-18",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-07-06"
+   ],
+   "desc": "Program Analysis and Verification on Trusted Platforms",
+   "end": "2024-09-09",
+   "link": "https://pavetrust.github.io/",
+   "name": "PAVeTrust 2024",
+   "place": "Milan, Italy",
+   "source": "sec-deadlines",
+   "start": "2024-09-09",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-12-07"
+   ],
+   "desc": "Workshop on the Security of Space and Satellite Systems",
+   "end": "2027-03-26",
+   "link": "https://spacesec.info/",
+   "name": "SpaceSec 2027",
+   "place": "Seoul, South Korea",
+   "source": "sec-deadlines",
+   "start": "2027-03-22",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-12"
+   ],
+   "desc": "Workshop on Measurements, Attacks, and Defenses for the Web",
+   "end": "2026-02-27",
+   "link": "https://madweb.work/",
+   "name": "MADWeb 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-27",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-11"
+   ],
+   "desc": "Workshop on Security and Privacy in Standardized IoT",
+   "end": "2026-02-23",
+   "link": "https://sdiotsec.github.io/",
+   "name": "SDIoTSec 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-23"
+   ],
+   "desc": "Workshop on SOC Operations and Construction",
+   "end": "2026-02-23",
+   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-wosoc/",
+   "name": "WOSOC 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-23",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-11"
+   ],
+   "desc": "Workshop on LLM Assisted Security and Trust Exploration",
+   "end": "2026-02-27",
+   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-last-x/",
+   "name": "LAST-X 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-27",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-06"
+   ],
+   "desc": "Symposium on Usable Security and Privacy",
+   "end": "2026-02-27",
+   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-usec/",
+   "name": "USEC 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-27",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-16"
+   ],
+   "desc": "Workshop on Attack Provenance, Reasoning, and Investigation for Security in the Monitored Environment",
+   "end": "2026-02-23",
+   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-prism/",
+   "name": "PRISM 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-13",
+    "2026-03-04"
+   ],
+   "desc": "USENIX WOOT Conference on Offensive Technologies",
+   "end": "2026-08-11",
+   "link": "https://www.usenix.org/conference/woot26/call-for-papers",
+   "name": "WOOT 2026",
+   "place": "Baltimore, MD, USA",
+   "source": "sec-deadlines",
+   "start": "2026-08-10",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-02-18"
+   ],
+   "desc": "IEEE/ACM Workshop on the Internet of Safe Things",
+   "end": "2025-05-15",
+   "link": "https://safethings25.ieee-security.org/",
+   "name": "SafeThings 2025",
+   "place": "San Francisco, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2025-05-15",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-14"
+   ],
+   "desc": "Malicious Software and Hardware in Internet of Things",
+   "end": "2026-05-19",
+   "link": "https://security.ucc.ie/mal-iot2026/",
+   "name": "MALIoT 2026",
+   "place": "Catania, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-05-19",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-03-03"
+   ],
+   "desc": "DevSecOps Research and Opportunities",
+   "end": "2025-07-04",
+   "link": "https://spritz.math.unipd.it/events/2025/devSecOpsRO/",
+   "name": "DevSecOpsRO 2025",
+   "place": "Venice, Italy",
+   "source": "sec-deadlines",
+   "start": "2025-07-04",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-12-12"
+   ],
+   "desc": "International Fuzzing Workshop",
+   "end": "2026-02-27",
+   "link": "https://fuzzing-workshop.github.io/",
+   "name": "FUZZING 2026",
+   "place": "San Diego, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-27",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-18"
+   ],
+   "desc": "Workshop on Security and Artificial Intelligance",
+   "end": "2026-09-18",
+   "link": "https://sites.google.com/view/secai2026",
+   "name": "SECAI 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-17",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-07-19"
+   ],
+   "desc": "Workshop on Attacks and Solutions in Hardware Security",
+   "end": "2024-10-18",
+   "link": "http://ashesworkshop.org/home",
+   "name": "ASHES 2024",
+   "place": "Salt Lake City, Utah, United States",
+   "source": "sec-deadlines",
+   "start": "2024-10-18",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-07-06"
+   ],
+   "desc": "ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses",
+   "end": "2024-10-18",
+   "link": "https://scored.dev/",
+   "name": "SCORED 2024",
+   "place": "Salt Lake City, Utah, United States",
+   "source": "sec-deadlines",
+   "start": "2024-10-18",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-02"
+   ],
+   "desc": "Data Privacy Management International Workshop",
+   "end": "2026-09-26",
+   "link": "https://deic.uab.cat/dpm/dpm2026/",
+   "name": "DPM 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-26",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-02"
+   ],
+   "desc": "International Workshop on Cryptocurrencies and Blockchain Technology",
+   "end": "2026-09-26",
+   "link": "http://cbtworkshop.org/",
+   "name": "CBT 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-26",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-10-02"
+   ],
+   "desc": "Workshop on Cyber Threat Intelligence and Hunting",
+   "end": "2024-12-18",
+   "link": "https://cyberhunt2024.cyberhunt.no/",
+   "name": "CyberHunt 2024",
+   "place": "Washington DC, USA",
+   "source": "sec-deadlines",
+   "start": "2024-12-15",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-11"
+   ],
+   "desc": "International Conference on Information Systems Security",
+   "end": "2026-12-20",
+   "link": "https://iciss.in/cfp/",
+   "name": "ICISS 2026",
+   "place": "CMI Chennai, India",
+   "source": "sec-deadlines",
+   "start": "2026-12-16",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-01"
+   ],
+   "desc": "ACM Cyber-Physical System Security Workshop",
+   "end": "2026-06-02",
+   "link": "https://cpss26.github.io/",
+   "name": "CPSS 2026",
+   "place": "Bangalore, India",
+   "source": "sec-deadlines",
+   "start": "2026-06-02",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-14"
+   ],
+   "desc": "International Workshop on Secure and Efficient Federated Learning",
+   "end": "2026-06-02",
+   "link": "https://federated-learning.org/fl-asiaccs-2026/",
+   "name": "FL 2026",
+   "place": "Bangalore, India",
+   "source": "sec-deadlines",
+   "start": "2026-06-02",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-02-21"
+   ],
+   "desc": "Workshop on Attackers and Cyber-Crime Operations",
+   "end": "2025-06-30",
+   "link": "https://wacco-workshop.org/",
+   "name": "WACCO 2025",
+   "place": "Venezia, Italy",
+   "source": "sec-deadlines",
+   "start": "2025-06-30",
+   "tags": [
+    "SEC",
+    "PRIV"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-19"
+   ],
+   "desc": "International Workshop on Security",
+   "end": "2026-11-26",
+   "link": "https://www.iwsec.org/2026/index.html",
+   "name": "IWSEC 2026",
+   "place": "Tokyo, JP",
+   "source": "sec-deadlines",
+   "start": "2026-11-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-09-18"
+   ],
+   "desc": "Cyber Security Experimentation and Test Workshop",
+   "end": "2025-12-08",
+   "link": "https://cset25.isi.edu/",
+   "name": "CSET 2025",
+   "place": "Honolulu, Hawaii, USA",
+   "source": "sec-deadlines",
+   "start": "2025-12-08",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-01"
+   ],
+   "desc": "Workshop on Quantum-Secure Networks and Systems",
+   "end": "2026-06-26",
+   "link": "https://qubip.eu/qsns2026/",
+   "name": "QSNS 2026",
+   "place": "Vilamoura, Algarve, Portugal",
+   "source": "sec-deadlines",
+   "start": "2026-06-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-07-09"
+   ],
+   "desc": "Research on offensive and defensive techniques in the context of Man At The End (MATE) attacks",
+   "end": "2025-10-17",
+   "link": "https://checkmate-workshop.github.io/",
+   "name": "CheckMATE 2025",
+   "place": "Taipei, Taiwan",
+   "source": "sec-deadlines",
+   "start": "2025-10-17",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-06-30"
+   ],
+   "desc": "Cyber Security in Cars Workshop",
+   "end": "2025-10-17",
+   "link": "https://acm-cscs.org",
+   "name": "CSCS 2025",
+   "place": "Taipei, Taiwan",
+   "source": "sec-deadlines",
+   "start": "2025-10-17",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-09",
+    "2026-07-31"
+   ],
+   "desc": "EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles",
+   "end": "2026-11-06",
+   "link": "https://smartsp.eai-conferences.org/",
+   "name": "SmartSP 2026",
+   "place": "Detroit, MI, USA",
+   "source": "sec-deadlines",
+   "start": "2026-11-05",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-06-25"
+   ],
+   "desc": "The ACM Cloud Computing Security Workshop",
+   "end": "2025-10-17",
+   "link": "https://ccsw.io/",
+   "name": "CCSW 2025",
+   "place": "Taipei, Taiwan, China",
+   "source": "sec-deadlines",
+   "start": "2025-10-17",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-11-08"
+   ],
+   "desc": "International Conference on Post-Quantum Cryptography",
+   "end": "2026-04-16",
+   "link": "https://pqcrypto2026.irisa.fr/",
+   "name": "PQCrypto 2026",
+   "place": "Saint-Malo, France",
+   "source": "sec-deadlines",
+   "start": "2026-04-14",
+   "tags": [
+    "CRYPTO",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-10-06"
+   ],
+   "desc": "Workshop on AI for Cyber Threat Intelligence",
+   "end": "2026-12-07",
+   "link": "https://waiti-workshop.github.io/",
+   "name": "WAITI 2026",
+   "place": "Los Angeles, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-12-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2024-07-30"
+   ],
+   "desc": "Topics in Applied Cryptography",
+   "end": "2024-09-27",
+   "link": "https://aleph.fbk.eu/events/TAC2024/",
+   "name": "TAC 2024",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2024-09-27",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-07"
+   ],
+   "desc": "Workshop on Security and Privacy of Next-Generation Networks",
+   "end": "2026-02-23",
+   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-futureg/",
+   "name": "FutureG 2026",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-02-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-03-02"
+   ],
+   "desc": "International Workshop on Cloud Resilience for the Internet of Things",
+   "end": "2025-08-07",
+   "link": "https://www.cloudresiot.com/",
+   "name": "CloudResIOT 2025",
+   "place": "Tokyo, Japan",
+   "source": "sec-deadlines",
+   "start": "2025-08-04",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-02-01"
+   ],
+   "desc": "Workshop on the Economics of Information Security",
+   "end": "2025-06-25",
+   "link": "http://kmlabcw.iis.u-tokyo.ac.jp/weis/2025/",
+   "name": "WEIS 2025",
+   "place": "Tokyo, Japan",
+   "source": "sec-deadlines",
+   "start": "2025-06-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-11"
+   ],
+   "desc": "International Workshop on Security and Risk in Identity Management",
+   "end": "2026-07-10",
+   "link": "https://st.fbk.eu/events/SeRIM2026/",
+   "name": "SeRIM 2026",
+   "place": "Lisbon, Portugal",
+   "source": "sec-deadlines",
+   "start": "2026-07-10",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-11"
+   ],
+   "desc": "ACM Workshop on Secure and Trustworthy Cyber Physical Systems",
+   "end": "2026-06-25",
+   "link": "https://sites.google.com/view/sat-cps2026/",
+   "name": "ACM SaT-CPS 2026",
+   "place": "Frankfurt, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-06-25",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-21"
+   ],
+   "desc": "ACM ASIA Public-Key Cryptography Workshop",
+   "end": "2026-06-02",
+   "link": "https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2026.html",
+   "name": "APKC 2026",
+   "place": "Bangalore, India",
+   "source": "sec-deadlines",
+   "start": "2026-06-02",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-21"
+   ],
+   "desc": "Workshop on Mobile and IoT Security Technologies",
+   "end": "2026-09-18",
+   "link": "https://mist-workshop.github.io/",
+   "name": "MIST 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-14",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-29",
+    "2026-10-28"
+   ],
+   "desc": "Microarchitecture Security Conference",
+   "end": "2027-02-04",
+   "link": "https://uasc.cc",
+   "name": "uASC 2027",
+   "place": "Amsterdam, Netherlands",
+   "source": "sec-deadlines",
+   "start": "2027-02-03",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CONF",
+    "CRYPTO"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-30"
+   ],
+   "desc": "Workshop on Hardware-Supported Software Security",
+   "end": "2026-09-17",
+   "link": "https://hs3-workshop.github.io/2026.html",
+   "name": "HS3 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-17",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-07-11"
+   ],
+   "desc": "10th IEEE International Workshop on Cyber-Physical Systems Security",
+   "end": "2025-09-11",
+   "link": "https://spritz.math.unipd.it/events/2025/CPS-Sec2025/",
+   "name": "CPS-Sec 2025",
+   "place": "Avignon, France",
+   "source": "sec-deadlines",
+   "start": "2025-09-11",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-16"
+   ],
+   "desc": "Workshop on Open Tools, Interfaces and Metrics for Implementation Security Testing",
+   "end": "2026-10-11",
+   "link": "https://optimist-ose.org/ches26",
+   "name": "OPTIMIST 2026",
+   "place": "Antalya, Türkiye",
+   "source": "sec-deadlines",
+   "start": "2026-10-11",
+   "tags": [
+    "CRYPTO",
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-24"
+   ],
+   "desc": "Workshop on Human-Centered Privacy and Security for Language Models",
+   "end": "2026-10-09",
+   "link": "https://haips.com",
+   "name": "HAIPS 2026",
+   "place": "San Francisco, CA, USA",
+   "source": "sec-deadlines",
+   "start": "2026-10-09",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-07-02"
+   ],
+   "desc": "Workshop on Re-design Industrial Control Systems with Security",
+   "end": "2025-10-13",
+   "link": "https://ricssworkshop.github.io/",
+   "name": "RICSS 2025",
+   "place": "Taipei, Taiwan",
+   "source": "sec-deadlines",
+   "start": "2025-10-13",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-01"
+   ],
+   "desc": "International Workshop on Blockchain for Decentralized Trust and Digital Identity",
+   "end": "2026-11-20",
+   "link": "https://bcca-conference.org/2026/Workshops/B4TI.php",
+   "name": "B4TI 2026",
+   "place": "Barcelona, Spain",
+   "source": "sec-deadlines",
+   "start": "2026-11-16",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-07-08"
+   ],
+   "desc": "Workshop on Software Understanding and Reverse Engineering",
+   "end": "2025-10-13",
+   "link": "https://sure-workshop.org/",
+   "name": "SURE 2025",
+   "place": "Taipei, Taiwan",
+   "source": "sec-deadlines",
+   "start": "2025-10-13",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-02"
+   ],
+   "desc": "EAI International Conference on Wireless Internet",
+   "end": "2026-12-04",
+   "link": "https://wicon.eai-conferences.org/2026/",
+   "name": "WICON 2026",
+   "place": "Bratislava, Slovakia",
+   "source": "sec-deadlines",
+   "start": "2026-12-02",
+   "tags": [
+    "SEC",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-10-21"
+   ],
+   "desc": "EAI International Conference on Ad Hoc Networks",
+   "end": "2025-12-05",
+   "link": "https://adhocnets.eai-conferences.org/2025/",
+   "name": "ADHOCNETS 2025",
+   "place": "Istanbul, Turkey",
+   "source": "sec-deadlines",
+   "start": "2025-12-04",
+   "tags": [
+    "SEC",
+    "CONF"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-04"
+   ],
+   "desc": "European Workshop on Systems Security",
+   "end": "2026-04-27",
+   "link": "https://eurosec-workshop.github.io/",
+   "name": "EuroSec 2026",
+   "place": "Edinburgh, UK",
+   "source": "sec-deadlines",
+   "start": "2026-04-27",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-11"
+   ],
+   "desc": "NextG Networks Cryptography and Security (NextG-Sec)",
+   "end": "2026-06-26",
+   "link": "https://nextg-sec.github.io/",
+   "name": "NextG-Sec 2026",
+   "place": "Stony Brook, New York, USA",
+   "source": "sec-deadlines",
+   "start": "2026-06-23",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-02"
+   ],
+   "desc": "Workshop on Migration and Agility in Cryptographic Systems",
+   "end": "2026-05-10",
+   "link": "https://magics.cs.hs-rm.de",
+   "name": "MAgiCS 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-05-10",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-01-20"
+   ],
+   "desc": "International Workshop on AI Safety and Security",
+   "end": "2026-04-07",
+   "link": "https://cyber.kent.ac.uk/events/AI-SS2026/index.html",
+   "name": "AI-SS 2026",
+   "place": "Canterbury, UK",
+   "source": "sec-deadlines",
+   "start": "2026-04-07",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-23"
+   ],
+   "desc": "International Workshop on Trends in Digital Identity",
+   "end": "2026-04-21",
+   "link": "https://st.fbk.eu/events/TDI2026/",
+   "name": "TDI 2026",
+   "place": "Verona, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-04-20",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-21"
+   ],
+   "desc": "The 1st Workshop on Datasets for Software Security",
+   "end": "2026-05-21",
+   "link": "https://data4softsec26.ieee-security.org",
+   "name": "Data4SoftSec 2026",
+   "place": "San Francisco, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-05-21",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-01"
+   ],
+   "desc": "Workshop on Cybersecurity of Digital Twins and Interconnected Cyber Physical Systems",
+   "end": "2026-05-28",
+   "link": "https://seccps.github.io/",
+   "name": "SecCPS 2026",
+   "place": "Glasgow, UK",
+   "source": "sec-deadlines",
+   "start": "2026-05-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-20"
+   ],
+   "desc": "Workshop on Metascience and Critical Reflections in Security & Privacy",
+   "end": "2026-05-21",
+   "link": "https://metacrisp.org",
+   "name": "MetaCRiSP 2026",
+   "place": "San Francisco, California, USA",
+   "source": "sec-deadlines",
+   "start": "2026-05-21",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-03-20"
+   ],
+   "desc": "Workshop on Automotive Cyber-Security",
+   "end": "2026-07-10",
+   "link": "https://acsw.unimore.it/",
+   "name": "ACSW 2026",
+   "place": "Lisbon, Portugal",
+   "source": "sec-deadlines",
+   "start": "2026-07-10",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-03-24"
+   ],
+   "desc": "Workshop on Operating Systems and Virtualization Security",
+   "end": "2025-07-04",
+   "link": "https://osvs.pages.dev",
+   "name": "OSVS 2025",
+   "place": "Venice, Italy",
+   "source": "sec-deadlines",
+   "start": "2025-07-04",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-01-11"
+   ],
+   "desc": "Workshop on Innovation in Metadata Privacy---Analysis and Construction Techniques",
+   "end": "2025-02-28",
+   "link": "https://www.ndss-symposium.org/ndss2025/co-located-events/impact/",
+   "name": "IMPACT 2025",
+   "place": "San Diego, California, USA",
+   "source": "sec-deadlines",
+   "start": "2025-02-28",
+   "tags": [
+    "PRIV",
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Emerging Digital Identities",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/edid",
+   "name": "EDId 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-16"
+   ],
+   "desc": "International Workshop on Digital Forensics",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/wsdf",
+   "name": "WSDF 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Security, Availability, and Fault-Tolerance in Edge AI Systems",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/safe-edge",
+   "name": "SAFE-EDGE 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Security of Mobile Applications",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/iwsma",
+   "name": "IWSMA 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Quantum Computing for Securing Large Language Models",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/qcllm",
+   "name": "QCLLM 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Advances in Secure Software Deployments",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/asod",
+   "name": "ASOD 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-04-16"
+   ],
+   "desc": "International Workshop on Artificial Intelligence, Cyber and Cyber-Physical Security",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/aiccps",
+   "name": "AI&CCPS 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-02"
+   ],
+   "desc": "International Workshop on Cybersecurity and Privacy Risk Assessments",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/cpra",
+   "name": "CPRA 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Recent Advances in Cyber Situational Awareness and Data-Centric Approaches",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/csa",
+   "name": "CSA 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-09"
+   ],
+   "desc": "International Workshop on Cyber Use of Information Hiding",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/cuing",
+   "name": "CUING 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Applied Trust and Cyber Resilience",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/cyrestrust",
+   "name": "CyResTrust 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-12"
+   ],
+   "desc": "International Workshop on Graph-based Approaches for CyberSecurity",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/grasec",
+   "name": "GRASEC 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-12"
+   ],
+   "desc": "International Workshop on Cyber Crime",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/iwcc",
+   "name": "IWCC 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Post-Quantum Cybersecurity Readiness and Migration",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/pq-readysec",
+   "name": "PQ-ReadySec 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Responsible Data Governance, Privacy, and Digital Transformation",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/rdgpt",
+   "name": "RDGPT 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Sustainable Security And Awareness For Next Generation Infrastructures",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/safer",
+   "name": "SAFER 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Supply Chain Cyber Security",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/sccs",
+   "name": "SCCS 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-16"
+   ],
+   "desc": "Workshop on Cybersecurity in Healthcare Operations",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/sechealth",
+   "name": "SecHealth 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-06"
+   ],
+   "desc": "Workshop on Cybersecurity in Industry 4.0 and Beyond",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/secindustry",
+   "name": "Secdustry 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-02"
+   ],
+   "desc": "International Workshop on Trust, Privacy and Security in the Digital Society",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/trustbus",
+   "name": "TrustBus 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Security in Aviation",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/sia",
+   "name": "SIA 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "International Workshop on Security and/or Privacy Enhancing Technologies for Multimodal Data",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/spetvid",
+   "name": "SPETViD 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-19"
+   ],
+   "desc": "Workshop on Agentic AI for Cybersecurity: Offensive and Defensive Perspectives",
+   "end": "2026-08-27",
+   "link": "https://www.ares-conference.eu/agentcy",
+   "name": "AgentCy 2026",
+   "place": "Linköping, SE",
+   "source": "sec-deadlines",
+   "start": "2026-08-24",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-02-28"
+   ],
+   "desc": "International Workshop on Secure, Accountable, and Verifiable Machine Learning",
+   "end": "2026-05-22",
+   "link": "https://conf.researchr.org/home/icst-2026/safe-ml-2026",
+   "name": "SAFE-ML 2026",
+   "place": "Daejeon, South Korea",
+   "source": "sec-deadlines",
+   "start": "2026-05-18",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-18"
+   ],
+   "desc": "International Workshop on Lightweight Cryptography for Security and Privacy",
+   "end": "2026-10-11",
+   "link": "https://lightsec2026.com/",
+   "name": "LightSEC 2026",
+   "place": "Antalya, Turkiye",
+   "source": "sec-deadlines",
+   "start": "2026-10-11",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS",
+    "CRYPTO"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-02-01"
+   ],
+   "desc": "IFIP International Workshop on Network and Distributed Systems Security",
+   "end": "2025-05-23",
+   "link": "https://ifiptc11.org/wg114-events/wg114-workshop",
+   "name": "IFIP WNDSS 2025",
+   "place": "Maribor, Slovenia",
+   "source": "sec-deadlines",
+   "start": "2025-05-23",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-02-09"
+   ],
+   "desc": "International Workshop on Security and Privacy of Sensing Systems",
+   "end": "2025-05-06",
+   "link": "https://emtechlab.github.io/sensors-security-privacy-workshop/",
+   "name": "Sensors S&P 2025",
+   "place": "Irvine, USA",
+   "source": "sec-deadlines",
+   "start": "2025-05-06",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2025-07-05"
+   ],
+   "desc": "Workshop on Programming Languages and Analysis for Security",
+   "end": "2025-10-13",
+   "link": "https://plas25.github.io/",
+   "name": "PLAS 2025",
+   "place": "Taipei, Taiwan",
+   "source": "sec-deadlines",
+   "start": "2025-10-13",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-05-01"
+   ],
+   "desc": "IFIP Summer School on Privacy and Identity Management",
+   "end": "2026-08-14",
+   "link": "https://ifip-summerschool.org/",
+   "name": "IFIPSC 2026",
+   "place": "Leuven, Belgium",
+   "source": "sec-deadlines",
+   "start": "2026-08-10",
+   "tags": [
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-26"
+   ],
+   "desc": "Workshop on Active Defense and Deception",
+   "end": "2026-09-18",
+   "link": "https://adnd.work",
+   "name": "ADND 2026",
+   "place": "Rome, Italy",
+   "source": "sec-deadlines",
+   "start": "2026-09-18",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-06-27"
+   ],
+   "desc": "Workshop on Enhancing Security, Privacy, and Trust in Extended Reality (XR) Systems",
+   "end": "2026-10-30",
+   "link": "https://xrsecurity.github.io/2026/",
+   "name": "XR Security 2026",
+   "place": "Austin, USA",
+   "source": "sec-deadlines",
+   "start": "2026-10-30",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-16"
+   ],
+   "desc": "IEEE International Workshop on Information Forensics and Security",
+   "end": "2026-12-11",
+   "link": "https://wifs2026.utt.fr/",
+   "name": "WIFS 2026",
+   "place": "Sendai, Japan",
+   "source": "sec-deadlines",
+   "start": "2026-12-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-14"
+   ],
+   "desc": "ACM Technical Analysis and Knowledge Exchange on Disrupting Online Criminal Networks",
+   "end": "2026-12-11",
+   "link": "https://takedown-workshop.com/",
+   "name": "TAKEDOWN 2026",
+   "place": "The Hague, The Netherlands",
+   "source": "sec-deadlines",
+   "start": "2026-12-07",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-25"
+   ],
+   "desc": "Workshop on Reliable and trustworthy Automated Software Engineering",
+   "end": "2026-10-16",
+   "link": "https://conf.researchr.org/home/ase-2026/rase-2026",
+   "name": "RASE 2026",
+   "place": "Munich, Germany",
+   "source": "sec-deadlines",
+   "start": "2026-10-12",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-07-18"
+   ],
+   "desc": "Workshop on Trustworthy and Secure AI for Cyber Defense",
+   "end": "2026-10-11",
+   "link": "https://attend.ieee.org/dsc/trustworthy-secureai/",
+   "name": "AICyDef 2026",
+   "place": "New York City, USA",
+   "source": "sec-deadlines",
+   "start": "2026-10-09",
+   "tags": [
+    "SEC",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-09-26"
+   ],
+   "desc": "Workshop on Agentic AI in Offensive and Defensive Cyber Operations",
+   "end": "2026-12-07",
+   "link": "https://aidcworkshop.github.io/",
+   "name": "AIDC 2026",
+   "place": "Los Angeles, California",
+   "source": "sec-deadlines",
+   "start": "2026-12-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "CRYPTO",
+    "SHOP",
+    "OTHERS"
+   ]
+  }
+ ],
+ "updated": "2026-09-19T17:18:33Z"
+}
