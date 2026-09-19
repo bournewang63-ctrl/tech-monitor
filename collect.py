@@ -19,13 +19,6 @@ from monitor.sources import FETCHERS, SourceError, iso, now_utc
 ROOT = Path(__file__).resolve().parent
 
 
-def within_window(pub: dt.datetime | None, seen: dt.datetime) -> str:
-    """統計用時間：發布時間若在偵測前 7 天內就用它，否則用首次偵測時間（例如很久以前建立、最近才爆紅的模型）。"""
-    if pub and seen - dt.timedelta(days=7) <= pub <= seen + dt.timedelta(hours=1):
-        return iso(min(pub, seen))
-    return iso(seen)
-
-
 def main(only: list[str]) -> int:
     cfg = yaml.safe_load((ROOT / "config/sources.yaml").read_text(encoding="utf-8"))["sources"]
     clf = Classifier()
@@ -65,8 +58,11 @@ def main(only: list[str]) -> int:
             hints = r["extra"].get("hint_topics") or []
             if src.get("require_match") and not topics:
                 continue
-            n_keep += 1
             old = items.get(r["id"])
+            if not old and r["published"] and src["kind"] not in ("model", "vuln") \
+                    and r["published"] < seen - dt.timedelta(days=store.BACKLOG_DAYS):
+                continue  # 第一次抓到的歷史舊文，不列入
+            n_keep += 1
             if old:
                 old["score"] = max(old.get("score", 0), r["score"])
                 if src["id"] not in old["sources"]:
@@ -79,12 +75,13 @@ def main(only: list[str]) -> int:
                 "id": r["id"], "title": r["title"], "url": r["url"], "summary": r["summary"],
                 "kind": src["kind"], "sources": [src["id"]], "source_name": src["name"],
                 "published": iso(r["published"]) if r["published"] else None,
-                "first_seen": iso(seen), "t": iso(r["published"]) if src["kind"] == "vuln" and r["published"] else within_window(r["published"], seen),
+                "first_seen": iso(seen),
                 "score": r["score"], "topics": topics, "keywords": kws, "hints": hints,
                 "defaults": src.get("default_topics", []), "base": src.get("base_topics", []), "orgs": clf.orgs_in(r["title"] + " " + r["summary"]),
                 "lang": src.get("lang", "en"), "official": bool(src.get("official")),
                 "extra": {k: v for k, v in r["extra"].items() if k != "hint_topics" and v not in (None, [], "")},
             }
+            items[r["id"]]["t"] = store.effective_time(items[r["id"]]) or iso(seen)
         new_total += n_new
         st.update({"ok": True, "error": "", "fetched": len(raw), "kept": n_keep, "new": n_new,
                    "last_ok": iso(seen), "secs": round(time.time() - t0, 1)})
