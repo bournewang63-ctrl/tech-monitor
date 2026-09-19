@@ -38,7 +38,8 @@ Inc LLC Ltd Co Corp Mr Ms Dr""".split())
 # 太籠統、每天都大量出現的詞，不列入爆量關鍵字
 GENERIC = {"ai", "llm", "llms", "gpt-", "agent", "agents", "cve", "iot", "5g", "gpu", "gpus", "model", "models",
            "資安", "漏洞", "駭客", "晶片", "加密", "語言模型", "人工智慧", "exploit", "exploited", "vulnerability",
-           "vulnerabilities", "security", "attack", "attacks", "breach", "malware", "robot", "robots", "transformer"}
+           "vulnerabilities", "security", "attack", "attacks", "breach", "malware", "robot", "robots", "transformer",
+           "hugging", "face", "open", "hub", "api", "building", "new"}
 TERM_RE = re.compile(r"\b(?:[A-Z][A-Za-z0-9]*[\-\.]?[A-Za-z0-9]+(?:[\-\.][A-Za-z0-9]+)*|[a-z]+[0-9][A-Za-z0-9\.\-]*)\b")
 
 
@@ -75,7 +76,7 @@ def tpe(ts) -> str:
 
 
 def esc(s) -> str:
-    return html.escape(str(s or ""))
+    return html.escape("" if s is None else str(s))
 
 
 def pct(a, b) -> float:
