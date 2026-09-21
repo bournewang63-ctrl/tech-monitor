@@ -59,6 +59,7 @@ def enrich(items: list[dict], clf, debug: bool | None = None) -> dict:
 
     assigned = 0
     for i, it in enumerate(cand):
+        it["sem_done"] = True  # 判過就記號起來，之後不再重算（省時間）
         if top[i] >= SIM_MIN and z[i] >= Z_MIN:
             it["sem"] = [keys[best[i]]]
             it["sem_score"] = round(float(top[i]), 3)
