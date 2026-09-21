@@ -15,11 +15,13 @@ def _pattern(kw: str) -> tuple[re.Pattern, str]:
     """回傳 (regex, 顯示用關鍵字)。"""
     case = kw.startswith("=")
     word = kw[1:] if case else kw
-    if CJK.search(word):
-        return re.compile(re.escape(word)), word
-    esc = re.escape(word)
+    if CJK.search(word):  # 中文（或中英混寫）：子字串比對，中間空白可有可無
+        return re.compile(r"\s*".join(re.escape(c) for c in word if not c.isspace())), word
+    # 詞之間的空白／連字號／底線視為同一種寫法：post-quantum = post quantum = postquantum
+    esc = r"[\s\-_]*".join(re.escape(p) for p in re.split(r"[\s\-_]+", word) if p)
     lead = r"(?<![A-Za-z0-9])" if word[0].isalnum() else ""
-    tail = r"(?:s|es)?(?![A-Za-z0-9])" if word[-1].isalnum() else ""
+    # 容許常見字尾變化：encrypt → encrypted / encrypting；robot → robots
+    tail = r"(?:s|es|ed|ing)?(?![A-Za-z0-9])" if word[-1].isalnum() else ""
     return re.compile(lead + esc + tail, 0 if case else re.IGNORECASE), word
 
 
