@@ -82,7 +82,7 @@ jobs:
           AIMON_SEM_MAX: "600"
           FASTEMBED_CACHE_PATH: .fastembed_cache
         run: |
-          python - <<'PY'
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
           from monitor import semantic, store
           from monitor.classify import Classifier
           clf = Classifier()
@@ -92,7 +92,7 @@ jobs:
               text = " ".join([it["title"], it.get("summary", ""),
                                " ".join(e.get("keywords") or []), " ".join(e.get("topics") or [])])
               t, _ = clf.classify(text)
-              it["topics"] = list(dict.fromkeys(t + it.get("hints", []) + it.get("base", []))) or it.get("defaults", [])
+              it["topics"] = list(dict.fromkeys(t + it.get("hints", []) + it.get("base", [])))  # 不套用預設主題
           print("未分類項目：", sum(1 for it in items if not it["topics"]), "／", len(items))
           print(semantic.enrich(items, clf, debug=True))
           PY
