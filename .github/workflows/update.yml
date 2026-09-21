@@ -34,12 +34,21 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: 快取語意模型          # 約 470MB，第一次執行後就不用重新下載
+        uses: actions/cache@v4
+        with:
+          path: .fastembed_cache
+          key: fastembed-paraphrase-multilingual-MiniLM-L12-v2
+
       - name: 安裝套件
         run: pip install -r requirements.txt
 
       - name: 收集資料
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 讓 GitHub 搜尋 API 有較高額度
+          AIMON_SEMANTIC: "1"                         # 開啟語意相似度層
+          AIMON_SEM_DEBUG: "1"                        # 在執行紀錄印出分數，方便調門檻
+          FASTEMBED_CACHE_PATH: .fastembed_cache
         run: python collect.py
 
       - name: 產生儀表板
