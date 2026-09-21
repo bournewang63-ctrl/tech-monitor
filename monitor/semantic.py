@@ -1,4 +1,4 @@
-"""語意相似度層（選用）：用開源嵌入模型補關鍵字漏掉的項目。
+語意層：排除資安會議領域，避免論文被誤判"""語意相似度層（選用）：用開源嵌入模型補關鍵字漏掉的項目。
 
 只處理「關鍵字完全沒分到類」的項目，不更動關鍵字已判定的結果，所以最壞情況是沒有效果，
 不會把原本正確的分類弄亂。模型下載或執行失敗時直接跳過，收集流程照常完成。
@@ -17,6 +17,8 @@ MODEL = os.environ.get("AIMON_SEM_MODEL", "sentence-transformers/paraphrase-mult
 SIM_MIN = float(os.environ.get("AIMON_SEM_MIN", 0.42))
 Z_MIN = float(os.environ.get("AIMON_SEM_Z", 1.5))
 MAX_ITEMS = int(os.environ.get("AIMON_SEM_MAX", 400))  # 單次執行上限，避免拖太久
+# 這些領域只靠精確名稱判斷，交給語意猜容易誤判（例如論文標題被當成研討會）
+EXCLUDE = {"security_events"}
 
 
 def enabled() -> bool:
@@ -42,7 +44,7 @@ def enrich(items: list[dict], clf, debug: bool | None = None) -> dict:
         return {"ok": False, "error": f"套件未安裝：{e}"}
     try:
         model = TextEmbedding(MODEL, cache_dir=os.environ.get("FASTEMBED_CACHE_PATH", ".fastembed_cache"))
-        keys = list(clf.topics)
+        keys = [k for k in clf.topics if k not in EXCLUDE]
         anchors = np.array(list(model.embed([_anchor_text(clf.topics[k]) for k in keys])))
         texts = [f"{it['title']}. {it.get('summary', '')[:200]}" for it in cand]
         vecs = np.array(list(model.embed(texts)))
