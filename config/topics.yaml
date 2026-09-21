@@ -1,8 +1,11 @@
 # 主題關鍵字設定
-# ─ 英文關鍵字：不分大小寫、以單字邊界比對（"robot" 會比對到 robots / robotics）
+# ─ 英文關鍵字：不分大小寫、整個單字比對，容許字尾 s/es/ed/ing
+#   （"robot" 會比對到 robots，但不會比對到 robotics；"encrypt" 會比對到 encrypted / encrypting）
+# ─ 詞之間的空白、連字號、底線視為同一種寫法：post-quantum = post quantum = postquantum
 # ─ 以 "=" 開頭：區分大小寫（例如 "=AI" 不會比對到 "said"）
-# ─ 中文關鍵字：直接子字串比對
-# ─ weak：弱關鍵字，要同時命中 requires 中任一主題才算數（避免「conference」把所有研討會都算進來）
+# ─ 中文關鍵字：子字串比對，中間空白可有可無
+# ─ weak：弱關鍵字，要同時命中 requires 中任一主題才算數
+#   （例如 "agents" 太常見，只有在同時是 AI 相關主題時才算 AI Agent）
 # 修改後下一次排程就會套用；舊資料在重新建置時也會重新分類。
 
 topics:
@@ -12,70 +15,86 @@ topics:
     color: "#ef4444"
     keywords: [LLM, LLMs, large language model, language model, GPT-, ChatGPT, Claude, Gemini, Llama, Qwen, DeepSeek,
                Mistral, Grok, reasoning model, fine-tuning, fine-tune, RLHF, RAG, retrieval-augmented, context window,
-               tokenizer, 大型語言模型, 語言模型, 大模型, 推理模型]
+               tokenizer, small language model, "=SLM", mixture of experts, "=MoE", system prompt, chain of thought,
+               大型語言模型, 語言模型, 大模型, 推理模型, 推理鏈]
   agent:
     name: AI Agent
     short: Agent
     color: "#f97316"
     keywords: [agentic, AI agent, AI agents, multi-agent, agent framework, coding agent, autonomous agent, "=MCP",
-               Model Context Protocol, computer use, tool use, function calling, "=Agent", "=Agents",
+               Model Context Protocol, computer use, tool use, tool calling, function calling, MCP server,
+               agent harness, agent workflow, browser agent, "=Agent", "=Agents",
                AI代理, AI 代理, 智慧代理, 代理人]
+    weak: [agent, agents]
+    requires: [llm, ai_general, multimodal, robotics, ai_chip]
   multimodal:
     name: 多模態與生成
     short: 多模態
     color: "#eab308"
     keywords: [multimodal, multi-modal, vision-language, "=VLM", text-to-image, text-to-video, image generation,
-               video generation, speech recognition, text-to-speech, "=TTS", diffusion model, Sora, Veo, Midjourney,
-               Stable Diffusion, world model, 多模態, 影像生成, 影片生成, 圖像生成, 語音辨識, 語音合成]
+               video generation, speech recognition, text-to-speech, "=TTS", diffusion, diffusion model, Sora, Veo,
+               Midjourney, Stable Diffusion, world model, image model, video model, image editing,
+               多模態, 影像生成, 影片生成, 圖像生成, 語音辨識, 語音合成, 文生圖, 生成影片]
   robotics:
     name: 機器人與具身智慧
     short: 機器人
     color: "#84cc16"
-    keywords: [robot, robots, robotic, robotics, humanoid, embodied, manipulation, autonomous driving, self-driving,
-               drone, drones, 機器人, 人形機器人, 具身, 自駕, 自動駕駛, 無人機]
+    keywords: [robot, robots, robotic, robotics, robotically, humanoid, embodied, manipulation, manipulator,
+               teleoperation, quadruped, end-effector, autonomous driving, self-driving, drone, drones,
+               機器人, 人形機器人, 具身, 自駕, 自動駕駛, 無人機, 機械手臂, 機械臂]
   ai_chip:
     name: AI 晶片與算力
     short: AI晶片
     color: "#22c55e"
-    keywords: ["=GPU", "=GPUs", "=TPU", "=NPU", AI chip, AI chips, accelerator, H100, H200, B200, B300, GB200,
-               Blackwell, Rubin, "=CUDA", "=HBM", data center, datacenter, inference chip, "=TSMC", CoWoS,
-               台積電, 晶片, 算力, 資料中心, AI伺服器, AI 伺服器, 輝達]
+    keywords: ["=GPU", "=GPUs", "=TPU", "=NPU", AI chip, AI chips, accelerator, AI accelerator, H100, H200, B200,
+               B300, GB200, Blackwell, Rubin, "=CUDA", "=HBM", NVLink, chiplet, advanced packaging, wafer,
+               data center, datacenter, inference chip, inference server, "=TSMC", CoWoS,
+               台積電, 晶片, 算力, 資料中心, AI伺服器, AI 伺服器, 輝達, 先進封裝, 記憶體頻寬]
   ai_general:
     name: AI 技術
     short: AI技術
     color: "#14b8a6"
     keywords: ["=AI", artificial intelligence, machine learning, deep learning, neural network, neural networks,
                reinforcement learning, transformer, transformers, foundation model, AI safety, alignment,
-               interpretability, benchmark, 人工智慧, 機器學習, 深度學習, 神經網路, 強化學習, 生成式AI, 生成式 AI]
+               interpretability, benchmark, distillation, quantization, pretraining, model weights, "=AGI",
+               open weight, open-source model,
+               人工智慧, 機器學習, 深度學習, 神經網路, 強化學習, 生成式AI, 生成式 AI, 開源模型, 模型權重]
   crypto:
     name: 密碼學
     short: 密碼學
     color: "#06b6d4"
-    keywords: [cryptography, cryptographic, cryptanalysis, encryption, cipher, ciphertext, zero-knowledge, "=ZK",
-               zkSNARK, SNARK, SNARKs, homomorphic, "=FHE", "=MPC", multiparty computation, multi-party computation,
-               signature scheme, lattice-based, elliptic curve, hash function, "=AES", "=RSA", "=TLS", key exchange,
-               side-channel, 密碼學, 加密, 零知識, 同態, 數位簽章, 金鑰]
+    keywords: [cryptography, cryptographic, cryptanalysis, encrypt, encryption, decrypt, decryption, cipher,
+               ciphertext, zero-knowledge, "=ZK", zkSNARK, SNARK, SNARKs, homomorphic, "=FHE", "=MPC",
+               multiparty computation, multi-party computation, signature scheme, lattice-based, elliptic curve,
+               hash function, "=AES", "=RSA", "=TLS", key exchange, public key, private key, certificate authority,
+               side-channel, randomness,
+               密碼學, 加密, 零知識, 同態, 數位簽章, 金鑰, 公鑰, 私鑰, 憑證]
   pqc_quantum:
     name: 量子密碼與量子科技
     short: 量子
     color: "#3b82f6"
-    keywords: [post-quantum, "=PQC", quantum-safe, quantum-resistant, ML-KEM, ML-DSA, SLH-DSA, FN-DSA, Kyber,
-               Dilithium, SPHINCS, "=HQC", FIPS 203, FIPS 204, FIPS 205, FIPS 206, "=QKD", quantum key distribution,
+    keywords: [post-quantum, "=PQC", PQC migration, quantum-safe, quantum-resistant, quantum threat, crypto agility,
+               cryptographic agility, harvest now decrypt later, ML-KEM, ML-DSA, SLH-DSA, FN-DSA, Kyber, Dilithium,
+               SPHINCS, "=HQC", FIPS 203, FIPS 204, FIPS 205, FIPS 206, "=QKD", quantum key distribution,
                quantum cryptography, quantum computing, quantum computer, quantum computers, qubit, qubits,
-               後量子, 抗量子, 量子密碼, 量子金鑰, 量子運算, 量子計算, 量子電腦, 量子位元]
+               後量子, 抗量子, 量子密碼, 量子金鑰, 量子運算, 量子計算, 量子電腦, 量子位元, 量子優勢, 密碼敏捷]
   security:
     name: 資安威脅與漏洞
     short: 資安威脅
     color: "#8b5cf6"
-    keywords: [vulnerability, vulnerabilities, "=CVE", zero-day, 0-day, exploit, exploited, ransomware, malware,
-               phishing, data breach, breach, backdoor, "=APT", botnet, supply chain attack, "=DDoS", spyware,
-               infostealer, flaw, flaws, hacked, hackers, cyberattack, cyber attack, cybersecurity, cyber security, infosec, 資安, 漏洞, 勒索軟體, 惡意程式, 釣魚, 駭客, 資料外洩, 零時差, 網路攻擊]
+    keywords: [vulnerability, vulnerabilities, "=CVE", "=RCE", "=CISA", zero-day, 0-day, exploit, exploited,
+               ransomware, malware, phishing, data breach, breach, backdoor, "=APT", botnet, supply chain attack,
+               "=DDoS", spyware, infostealer, flaw, flaws, hacked, hackers, cyberattack, cyber attack, cybersecurity,
+               cyber security, infosec, privilege escalation, patch Tuesday, security advisory, threat actor,
+               intrusion, credential theft, firmware vulnerability,
+               資安, 漏洞, 弱點, 勒索軟體, 惡意程式, 釣魚, 駭客, 資料外洩, 資料外流, 零時差, 網路攻擊, 入侵, 修補]
   security_events:
     name: 資安會議與活動
     short: 資安活動
     color: "#ec4899"
     keywords: [Black Hat, DEF CON, DEFCON, "=RSAC", RSA Conference, USENIX Security, "=NDSS", ACM CCS, IEEE S&P,
-               Eurocrypt, Asiacrypt, "=CHES", PQCrypto, HITCON, CYBERSEC, 資安大會, 駭客年會, "=CTF", Pwn2Own]
+               Eurocrypt, Asiacrypt, "=CHES", PQCrypto, Real World Crypto, Hack In The Box, Troopers, SecTor,
+               OWASP Global AppSec, HITCON, CYBERSEC, 資安大會, 駭客年會, "=CTF", Pwn2Own]
     weak: [conference, summit, workshop, call for papers, hackathon, symposium, 研討會, 論壇, 峰會, 競賽, 黑客松]
     requires: [security, crypto, pqc_quantum, iot]
   iot:
@@ -83,6 +102,7 @@ topics:
     short: 物聯網
     color: "#a3a3a3"
     keywords: ["=IoT", "=IIoT", Internet of Things, edge computing, edge AI, embedded, microcontroller, "=MCU",
-               ESP32, Arduino, Raspberry Pi, LoRa, LoRaWAN, Zigbee, Matter protocol, Matter standard, NB-IoT, "=5G",
-               "=6G", smart home, industrial IoT, digital twin, "=OT security", 物聯網, 邊緣運算, 嵌入式, 感測器,
-               智慧家庭, 工業物聯網, 數位孿生]
+               ESP32, Arduino, Raspberry Pi, LoRa, LoRaWAN, Zigbee, Zephyr, Matter protocol, Matter standard,
+               NB-IoT, "=5G", "=6G", smart home, industrial IoT, digital twin, "=OT security", firmware,
+               over-the-air update, "=OTA", gateway device, RISC-V board, single board computer, "=SBC",
+               物聯網, 邊緣運算, 嵌入式, 感測器, 智慧家庭, 工業物聯網, 數位孿生, 韌體, 閘道器]
