@@ -52,10 +52,13 @@ def load(clf: Classifier) -> pd.DataFrame:
                          " ".join(it.get("extra", {}).get("topics") or [])])
         topics, kws = clf.classify(text)  # 以最新關鍵字設定重新分類
         topics = list(dict.fromkeys(topics + it.get("hints", []) + it.get("base", [])))
+        by_sem = False
+        if not topics and it.get("sem"):  # 關鍵字沒分到類時，才採用語意層的判定
+            topics, by_sem = list(it["sem"]), True
         if not topics:
             topics = it.get("defaults", [])
         topics = [t for t in topics if t in clf.topics]
-        rows.append({**it, "topics": topics, "keywords": kws, "orgs": clf.orgs_in(it["title"] + " " + it.get("summary", ""))})
+        rows.append({**it, "topics": topics, "by_sem": by_sem, "keywords": kws, "orgs": clf.orgs_in(it["title"] + " " + it.get("summary", ""))})
     df = pd.DataFrame(rows)
     if df.empty:
         return df
@@ -107,6 +110,7 @@ def compute(df: pd.DataFrame, clf: Classifier, now: pd.Timestamp) -> dict:
     S["kind24"] = last24["kind"].value_counts().to_dict()
     S["kev7"] = int(((df["kind"] == "vuln") & (df["t"] >= d7)).sum())
     S["heat"] = len(last24) / max(len(prev7) / 7, 1)
+    S["sem24"] = int(last24["by_sem"].sum()) if "by_sem" in last24 else 0
 
     ex = explode_topics(df)
     ex24, exprev = ex[ex["t"] >= h24], ex[(ex["t"] < h24) & (ex["t"] >= d8)]
@@ -424,6 +428,7 @@ def render(df, S, F, clf, events, dls, status, runs) -> str:
            f'<span class="k">升溫最快</span><span class="v up">{esc(rising)}（{S["growth"].get(S["rising"], 0):+.0f}%）</span>'
            f'<span class="k">爆量關鍵字</span><span class="v">{esc(burst1)}</span>'
            f'<span class="k">官方發布 24h</span><span class="v">{S["kind24"].get("blog", 0)} 則</span>'
+           f'<span class="k">語意層補抓 24h</span><span class="v">{S["sem24"]} 則</span>'
            f'<span class="k">重大警示</span><span class="v up">{len(S["alerts"])} 項</span>'
            f'<span class="k">最熱項目</span><span class="v" style="font-weight:500">{esc(top1["title"][:38]) if top1 else "—"}</span></div>'
            f'<div class="small" style="margin-top:8px">熱度指數＝近 24 小時項目數 ÷ 前 7 日日均</div>')
