@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 * * * *"      # 每小時第 17 分執行（UTC，避開整點尖峰）
   workflow_dispatch:           # 可在 Actions 頁面手動執行
+    inputs:
+      test_semantic:
+        description: "順便測試語意層（拿現有未分類項目跑一次，印出分數）"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["config/**", "build.py", "collect.py", "monitor/**"]
@@ -68,6 +73,29 @@ jobs:
             git push -q origin HEAD:main && break
             sleep 5
           done
+
+      - name: 測試語意層（僅手動勾選時執行）
+        if: ${{ inputs.test_semantic }}
+        env:
+          AIMON_SEMANTIC: "1"
+          AIMON_SEM_DEBUG: "1"
+          AIMON_SEM_MAX: "600"
+          FASTEMBED_CACHE_PATH: .fastembed_cache
+        run: |
+          python - <<'PY'
+          from monitor import semantic, store
+          from monitor.classify import Classifier
+          clf = Classifier()
+          items = list(store.load_months(2).values())
+          for it in items:  # 以最新關鍵字重新判定，挑出完全沒分到類的
+              e = it.get("extra", {})
+              text = " ".join([it["title"], it.get("summary", ""),
+                               " ".join(e.get("keywords") or []), " ".join(e.get("topics") or [])])
+              t, _ = clf.classify(text)
+              it["topics"] = list(dict.fromkeys(t + it.get("hints", []) + it.get("base", []))) or it.get("defaults", [])
+          print("未分類項目：", sum(1 for it in items if not it["topics"]), "／", len(items))
+          print(semantic.enrich(items, clf, debug=True))
+          PY
 
       - uses: actions/upload-pages-artifact@v3
         with:
