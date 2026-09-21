@@ -4,3 +4,4 @@ pyyaml>=6.0
 python-dateutil>=2.8
 pandas>=2.0
 plotly>=5.20
+fastembed>=0.7          # 語意相似度層（開源嵌入模型，離線執行）

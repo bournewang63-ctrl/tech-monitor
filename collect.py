@@ -12,7 +12,7 @@ from pathlib import Path
 
 import yaml
 
-from monitor import store
+from monitor import semantic, store
 from monitor.classify import Classifier
 from monitor.sources import FETCHERS, SourceError, iso, now_utc
 
@@ -88,13 +88,23 @@ def main(only: list[str]) -> int:
         status[src["id"]] = st
         print(f"✓ {src['id']:<16} 取得 {len(raw):>4}，相關 {n_keep:>4}，新增 {n_new:>4}")
 
+    sem = {}
+    if semantic.enabled():  # 語意層：補關鍵字完全沒分到類的項目
+        fresh = [it for it in items.values() if it["first_seen"] == iso(seen)]
+        sem = semantic.enrich(fresh, clf)
+        print(f"語意層：{sem}")
+
+    if not only:  # 已停用或刪除的來源，不再顯示在健康狀態
+        valid = {s["id"] for s in cfg if s.get("enabled", True) is not False}
+        status = {k: v for k, v in status.items() if k in valid}
     store.save(items)
     store.write_json("status.json", status)
     if events or not only:
         if events:
             store.write_json("events.json", {"updated": iso(seen), "events": events})
     ok = sum(1 for s in status.values() if s.get("ok"))
-    store.append_run({"t": iso(seen), "new": new_total, "ok": ok, "sources": len(status)})
+    store.append_run({"t": iso(seen), "new": new_total, "ok": ok, "sources": len(status),
+                      "sem": sem.get("assigned", 0)})
     print(f"完成：新增 {new_total} 筆，來源正常 {ok}/{len(status)}")
     return 0
 
