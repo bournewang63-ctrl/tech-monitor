@@ -527,7 +527,7 @@ def render(df, S, F, clf, events, dls, status, runs) -> str:
 
     body = f"""
 <div class="wrap">
-<div class="disc">⚠️ 每小時自動更新｜分類與熱度皆為關鍵字規則統計，非 AI 判讀，僅供追蹤參考。資料來源：arXiv、IACR ePrint、Hugging Face、GitHub、Hacker News、官方部落格、資安新聞、CISA KEV、sec-deadlines、iThome、科技新報。</div>
+<div class="disc">⚠️ 每小時自動更新｜分類與熱度以關鍵字規則為主，關鍵字沒分到類的項目另用開源嵌入模型做語意比對補抓（標示「語意」），非生成式 AI 判讀，僅供追蹤參考。資料來源：arXiv、IACR ePrint、Hugging Face、GitHub、Hacker News、官方部落格、資安新聞、CISA KEV、sec-deadlines、iThome、科技新報。</div>
 <div class="top"><div class="title">AI・資安・量子・物聯網　新技術發布監測儀表板<small>台北時間 {now.tz_convert(TPE):%Y-%m-%d %H:%M}</small></div>
 <div class="tags"><span class="tag"><i></i>KEYWORD SCAN ACTIVE</span><span class="tag"><i></i>{len(status)} SOURCES</span>
 <span class="tag"><i></i>HOURLY UPDATE</span><span class="tag w"><i></i>{len(S["alerts"])} ALERTS</span></div></div>
