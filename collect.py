@@ -89,9 +89,9 @@ def main(only: list[str]) -> int:
         print(f"✓ {src['id']:<16} 取得 {len(raw):>4}，相關 {n_keep:>4}，新增 {n_new:>4}")
 
     sem = {}
-    if semantic.enabled():  # 語意層：補關鍵字完全沒分到類的項目
-        fresh = [it for it in items.values() if it["first_seen"] == iso(seen)]
-        sem = semantic.enrich(fresh, clf)
+    if semantic.enabled():  # 語意層：補關鍵字完全沒分到類的項目（含先前累積、還沒判過的）
+        todo = [it for it in items.values() if not it.get("sem_done")]
+        sem = semantic.enrich(todo, clf)
         print(f"語意層：{sem}")
 
     if not only:  # 已停用或刪除的來源，不再顯示在健康狀態
