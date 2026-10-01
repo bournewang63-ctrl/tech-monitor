@@ -389,15 +389,15 @@
   },
   {
    "deadlines": [
-    "2026-04-29"
+    "2027-04-11"
    ],
    "desc": "Annual International Conference on Privacy, Security, and Trust",
-   "end": "2026-08-28",
-   "link": "https://pstnet.ca/pst2026",
-   "name": "PST 2026",
-   "place": "Ottawa, Canada",
+   "end": "2027-08-27",
+   "link": "https://pstnet.ca/pst2027",
+   "name": "PST 2027",
+   "place": "Sheffield, UK",
    "source": "sec-deadlines",
-   "start": "2026-08-26",
+   "start": "2027-08-25",
    "tags": [
     "SEC",
     "PRIV",
@@ -3709,5 +3709,5 @@
    ]
   }
  ],
- "updated": "2026-10-01T13:18:01Z"
+ "updated": "2026-10-01T19:32:44Z"
 }
