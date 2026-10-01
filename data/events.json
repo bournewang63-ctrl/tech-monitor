@@ -845,15 +845,15 @@
   },
   {
    "deadlines": [
-    "2026-01-03"
+    "2026-11-24"
    ],
    "desc": "ACM Conference on Data and Application Security and Privacy",
-   "end": "2026-06-25",
-   "link": "http://www.codaspy.org/2026/",
-   "name": "CODASPY 2026",
-   "place": "Frankfurt am Main, Germany",
+   "end": "2027-06-17",
+   "link": "http://www.codaspy.org/2027/",
+   "name": "CODASPY 2027",
+   "place": "Fort Collins, CO, USA",
    "source": "sec-deadlines",
-   "start": "2026-06-23",
+   "start": "2027-06-14",
    "tags": [
     "CRYPTO",
     "SEC",
@@ -3709,5 +3709,5 @@
    ]
   }
  ],
- "updated": "2026-09-30T23:52:05Z"
+ "updated": "2026-10-01T05:56:45Z"
 }
