@@ -956,15 +956,15 @@
   },
   {
    "deadlines": [
-    "2025-10-09"
+    "2026-11-07"
    ],
    "desc": "Passive and Active Measurement Conference",
-   "end": "2026-03-25",
-   "link": "https://pam2026.at/",
-   "name": "PAM 2026",
+   "end": "2027-03-24",
+   "link": "https://pam2027.furg.br/",
+   "name": "PAM 2027",
    "place": "Virtual",
    "source": "sec-deadlines",
-   "start": "2026-03-23",
+   "start": "2027-03-22",
    "tags": [
     "SEC",
     "PRIV",
@@ -1064,16 +1064,15 @@
   },
   {
    "deadlines": [
-    "2025-11-21",
-    "2026-04-30"
+    "2026-11-18"
    ],
    "desc": "ACM Internet Measurement Conference",
-   "end": "2026-11-06",
-   "link": "https://conferences.sigcomm.org/imc/2026/",
-   "name": "IMC 2026",
-   "place": "Karlsruhe, Germany",
+   "end": "2027-10-29",
+   "link": "https://conferences.sigcomm.org/imc/2027/",
+   "name": "IMC 2027",
+   "place": "Atlanta, GA, USA",
    "source": "sec-deadlines",
-   "start": "2026-11-03",
+   "start": "2027-10-25",
    "tags": [
     "SEC",
     "PRIV",
@@ -3729,5 +3728,5 @@
    ]
   }
  ],
- "updated": "2026-10-16T07:11:42Z"
+ "updated": "2026-10-16T12:26:55Z"
 }
