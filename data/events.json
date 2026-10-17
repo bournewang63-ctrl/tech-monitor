@@ -808,16 +808,16 @@
   },
   {
    "deadlines": [
-    "2025-12-04",
-    "2026-02-12"
+    "2026-12-11",
+    "2027-02-19"
    ],
    "desc": "The Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
-   "end": "2026-07-03",
-   "link": "https://www.dimva.org/dimva2026/",
-   "name": "DIMVA 2026",
-   "place": "Chania, Greece",
+   "end": "2027-07-02",
+   "link": "https://www.dimva.org/dimva2027/",
+   "name": "DIMVA 2027",
+   "place": "Enschede, The Netherlands",
    "source": "sec-deadlines",
-   "start": "2026-07-01",
+   "start": "2027-06-30",
    "tags": [
     "SEC",
     "CONF",
@@ -3728,5 +3728,5 @@
    ]
   }
  ],
- "updated": "2026-10-16T23:37:01Z"
+ "updated": "2026-10-17T04:28:40Z"
 }
