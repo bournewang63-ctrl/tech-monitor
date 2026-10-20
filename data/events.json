@@ -1064,7 +1064,8 @@
   },
   {
    "deadlines": [
-    "2026-11-18"
+    "2026-11-18",
+    "2027-04-08"
    ],
    "desc": "ACM Internet Measurement Conference",
    "end": "2027-10-29",
@@ -2625,15 +2626,15 @@
   },
   {
    "deadlines": [
-    "2025-02-01"
+    "2027-01-22"
    ],
    "desc": "Workshop on the Economics of Information Security",
-   "end": "2025-06-25",
-   "link": "http://kmlabcw.iis.u-tokyo.ac.jp/weis/2025/",
-   "name": "WEIS 2025",
-   "place": "Tokyo, Japan",
+   "end": "2027-06-17",
+   "link": "https://weis2027.econinfosec.org/",
+   "name": "WEIS 2027",
+   "place": "Munich, Germany",
    "source": "sec-deadlines",
-   "start": "2025-06-23",
+   "start": "2027-06-16",
    "tags": [
     "SEC",
     "PRIV",
@@ -3728,5 +3729,5 @@
    ]
   }
  ],
- "updated": "2026-10-20T00:21:45Z"
+ "updated": "2026-10-20T06:02:21Z"
 }
