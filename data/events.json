@@ -195,15 +195,15 @@
   },
   {
    "deadlines": [
-    "2025-12-20"
+    "2026-12-16"
    ],
    "desc": "IFIP International Information Security and Privacy Conference",
-   "end": "2026-06-11",
+   "end": "2027-06-16",
    "link": "https://ifipsec.org/cfp.html",
-   "name": "IFIP SEC 2026",
-   "place": "Perth, Australia",
+   "name": "IFIP SEC 2027",
+   "place": "Linköping, Sweden",
    "source": "sec-deadlines",
-   "start": "2026-06-09",
+   "start": "2027-06-14",
    "tags": [
     "SEC",
     "CONF",
@@ -1706,16 +1706,16 @@
   },
   {
    "deadlines": [
-    "2026-01-31",
-    "2026-03-23"
+    "2026-12-19",
+    "2027-03-06"
    ],
    "desc": "International Workshop on Critical Infrastructure and Maritime Systems Security",
-   "end": "2026-06-25",
-   "link": "https://cimss2026.github.io/",
-   "name": "CIMSS 2026",
-   "place": "Stony Brook University, NY, USA",
+   "end": "2027-07-01",
+   "link": "https://cimss2027.github.io/",
+   "name": "CIMSS 2027",
+   "place": "Royal Holloway, Egham, UK",
    "source": "sec-deadlines",
-   "start": "2026-06-22",
+   "start": "2027-06-28",
    "tags": [
     "SEC",
     "SHOP",
@@ -3729,5 +3729,5 @@
    ]
   }
  ],
- "updated": "2026-10-21T23:21:27Z"
+ "updated": "2026-10-22T04:49:25Z"
 }
