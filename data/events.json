@@ -268,15 +268,16 @@
   },
   {
    "deadlines": [
-    "2026-01-16"
+    "2027-02-02",
+    "2027-04-16"
    ],
-   "desc": "International Conference on Security and Privacy in Communication Networks",
-   "end": "2026-07-24",
-   "link": "https://securecomm.eai-conferences.org/2026/",
-   "name": "SecureComm 2026",
-   "place": "Lancaster, United Kingdom",
+   "desc": "EAI International Conference on Security and Privacy in Communication Networks​",
+   "end": "2027-10-18",
+   "link": "https://securecomm.eai-conferences.org/2027/",
+   "name": "SecureComm 2027",
+   "place": "Hefei, China",
    "source": "sec-deadlines",
-   "start": "2026-07-21",
+   "start": "2027-10-15",
    "tags": [
     "SEC",
     "CONF",
@@ -601,15 +602,15 @@
   },
   {
    "deadlines": [
-    "2026-03-02"
+    "2027-01-16"
    ],
    "desc": "International Conference on Cryptography Africa",
-   "end": "2026-07-10",
-   "link": "https://www.africacrypt2026.tn/",
-   "name": "AfricaCrypt 2026",
-   "place": "Hammamet, Tunisia",
+   "end": "2027-07-09",
+   "link": "https://africacrypt2027.ci/call-for-papers",
+   "name": "AfricaCrypt 2027",
+   "place": "Abidjan, Côte d'Ivoire",
    "source": "sec-deadlines",
-   "start": "2026-07-08",
+   "start": "2027-07-07",
    "tags": [
     "CRYPTO",
     "CONF",
@@ -3729,5 +3730,5 @@
    ]
   }
  ],
- "updated": "2026-10-23T10:05:30Z"
+ "updated": "2026-10-23T15:05:49Z"
 }
