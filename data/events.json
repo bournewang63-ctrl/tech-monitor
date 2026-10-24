@@ -373,15 +373,15 @@
   },
   {
    "deadlines": [
-    "2026-02-14"
+    "2027-03-06"
    ],
    "desc": "The Annual Symposium on Applications of Contextual Integrity",
-   "end": "2026-06-25",
-   "link": "https://privaci.info/symposium/2026/cfp.html",
-   "name": "PrivaCI 2026",
-   "place": "Urbana-Champaign, USA",
+   "end": "2027-06-11",
+   "link": "https://privaci.info/symposium/2027/cfp.html",
+   "name": "PrivaCI 2027",
+   "place": "Quebec City, Canada",
    "source": "sec-deadlines",
-   "start": "2026-06-24",
+   "start": "2027-06-10",
    "tags": [
     "PRIV",
     "CONF",
@@ -1314,15 +1314,15 @@
   },
   {
    "deadlines": [
-    "2024-07-02"
+    "2026-10-01"
    ],
    "desc": "International Conference on Network and System Security and International Symposium on Security and Privacy in Social Networks and Big Data",
-   "end": "2024-11-22",
-   "link": "http://nsclab.org/nss-socialsec2024/index.html",
-   "name": "NSS-SocialSec 2024",
-   "place": "Abu Dhabi, UAE",
+   "end": "2026-11-01",
+   "link": "https://nsclab.org/nss2026/",
+   "name": "NSS-SocialSec 2026",
+   "place": "Hangzhou, China",
    "source": "sec-deadlines",
-   "start": "2024-11-20",
+   "start": "2026-10-30",
    "tags": [
     "SEC",
     "PRIV",
@@ -1421,15 +1421,15 @@
   },
   {
    "deadlines": [
-    "2024-12-10"
+    "2026-10-31"
    ],
    "desc": "Italian Conference on Cybersecurity",
-   "end": "2025-02-08",
+   "end": "2027-02-12",
    "link": "https://itasec.it/",
-   "name": "ITASEC 2025",
-   "place": "Bologna, IT",
+   "name": "ITASEC 2027",
+   "place": "Siena, Tuscany, Italy",
    "source": "sec-deadlines",
-   "start": "2025-02-03",
+   "start": "2027-02-08",
    "tags": [
     "SEC",
     "CONF",
@@ -2539,15 +2539,15 @@
   },
   {
    "deadlines": [
-    "2025-11-08"
+    "2026-11-25"
    ],
    "desc": "International Conference on Post-Quantum Cryptography",
-   "end": "2026-04-16",
-   "link": "https://pqcrypto2026.irisa.fr/",
-   "name": "PQCrypto 2026",
-   "place": "Saint-Malo, France",
+   "end": "2027-05-14",
+   "link": "https://pqcrypto2027.ca/",
+   "name": "PQCrypto 2027",
+   "place": "Waterloo, Canada",
    "source": "sec-deadlines",
-   "start": "2026-04-14",
+   "start": "2027-05-12",
    "tags": [
     "CRYPTO",
     "CONF"
@@ -3730,5 +3730,5 @@
    ]
   }
  ],
- "updated": "2026-10-24T05:55:48Z"
+ "updated": "2026-10-24T11:03:08Z"
 }
