@@ -3728,7 +3728,24 @@
     "SHOP",
     "OTHERS"
    ]
+  },
+  {
+   "deadlines": [
+    "2027-05-03"
+   ],
+   "desc": "IEEE LCN Special Track on Maritime Communication and Security",
+   "end": "2027-10-21",
+   "link": "https://www.lcn-marcas.org",
+   "name": "MarCaS 2027",
+   "place": "Daytona Beach, FL, USA",
+   "source": "sec-deadlines",
+   "start": "2027-10-18",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
   }
  ],
- "updated": "2026-11-03T06:50:08Z"
+ "updated": "2026-11-03T15:10:13Z"
 }
