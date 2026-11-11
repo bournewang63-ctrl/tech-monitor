@@ -3745,7 +3745,25 @@
     "CONF",
     "OTHERS"
    ]
+  },
+  {
+   "deadlines": [
+    "2026-12-14"
+   ],
+   "desc": "2nd International Workshop on Security and Privacy-Preserving AI/ML",
+   "end": "2027-03-09",
+   "link": "https://spaiml.com/2027",
+   "name": "SPAIML 2027",
+   "place": "Washington, D.C., USA",
+   "source": "sec-deadlines",
+   "start": "2027-03-07",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
   }
  ],
- "updated": "2026-11-11T06:24:29Z"
+ "updated": "2026-11-11T15:14:18Z"
 }
