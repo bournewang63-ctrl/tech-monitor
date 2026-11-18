@@ -176,16 +176,16 @@
   },
   {
    "deadlines": [
-    "2025-11-19",
-    "2026-03-04"
+    "2026-12-01",
+    "2027-02-16"
    ],
    "desc": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
-   "end": "2026-07-03",
-   "link": "https://wisec26.events.cispa.de/",
-   "name": "WiSec 2026",
-   "place": "Saarbrücken, Germany",
+   "end": "2027-07-02",
+   "link": "https://ntu-dtc.github.io/wisec2027/",
+   "name": "WiSec 2027",
+   "place": "Singapore",
    "source": "sec-deadlines",
-   "start": "2026-06-30",
+   "start": "2027-06-29",
    "tags": [
     "SEC",
     "PRIV",
@@ -1192,15 +1192,15 @@
   },
   {
    "deadlines": [
-    "2026-07-01"
+    "2027-07-02"
    ],
    "desc": "IEEE/ACM International Conference on Software Engineering",
-   "end": "2027-05-01",
-   "link": "https://conf.researchr.org/home/icse-2027",
-   "name": "ICSE 2027",
-   "place": "Dublin, Ireland",
+   "end": "2028-05-07",
+   "link": "https://conf.researchr.org/home/icse-2028",
+   "name": "ICSE 2028",
+   "place": "Hawaii, USA",
    "source": "sec-deadlines",
-   "start": "2027-04-25",
+   "start": "2028-04-29",
    "tags": [
     "SEC",
     "CONF",
@@ -1209,15 +1209,15 @@
   },
   {
    "deadlines": [
-    "2026-03-27"
+    "2027-03-11"
    ],
    "desc": "IEEE/ACM Automated Software Engineering",
-   "end": "2026-10-16",
-   "link": "https://conf.researchr.org/home/ase-2026",
-   "name": "ASE 2026",
-   "place": "Munich, Germany",
+   "end": "2027-10-28",
+   "link": "https://conf.researchr.org/home/ase-2027",
+   "name": "ASE 2027",
+   "place": "El Paso, Texas, United States",
    "source": "sec-deadlines",
-   "start": "2026-10-12",
+   "start": "2027-10-24",
    "tags": [
     "SEC",
     "CONF",
@@ -2146,16 +2146,16 @@
   },
   {
    "deadlines": [
-    "2025-12-13",
-    "2026-03-04"
+    "2026-12-18",
+    "2027-03-03"
    ],
    "desc": "USENIX WOOT Conference on Offensive Technologies",
-   "end": "2026-08-11",
-   "link": "https://www.usenix.org/conference/woot26/call-for-papers",
-   "name": "WOOT 2026",
-   "place": "Baltimore, MD, USA",
+   "end": "2027-08-10",
+   "link": "https://www.usenix.org/conference/woot27/call-for-papers",
+   "name": "WOOT 2027",
+   "place": "Denver, CO, USA",
    "source": "sec-deadlines",
-   "start": "2026-08-10",
+   "start": "2027-08-09",
    "tags": [
     "SEC",
     "PRIV",
@@ -3539,15 +3539,15 @@
   },
   {
    "deadlines": [
-    "2025-02-01"
+    "2026-12-23"
    ],
    "desc": "IFIP International Workshop on Network and Distributed Systems Security",
-   "end": "2025-05-23",
+   "end": "2027-06-16",
    "link": "https://ifiptc11.org/wg114-events/wg114-workshop",
-   "name": "IFIP WNDSS 2025",
-   "place": "Maribor, Slovenia",
+   "name": "IFIP WNDSS 2027",
+   "place": "Linköping, Sweden",
    "source": "sec-deadlines",
-   "start": "2025-05-23",
+   "start": "2027-06-15",
    "tags": [
     "SEC",
     "SHOP",
@@ -3763,7 +3763,24 @@
     "SHOP",
     "OTHERS"
    ]
+  },
+  {
+   "deadlines": [
+    "2026-11-22"
+   ],
+   "desc": "The International Conference on Attacks and Defenses for Internet-of-Things",
+   "end": "2026-12-20",
+   "link": "https://adiot.sptagelab.org/2026/",
+   "name": "ADIoT 2026",
+   "place": "Hangzhou, China",
+   "source": "sec-deadlines",
+   "start": "2026-12-18",
+   "tags": [
+    "SEC",
+    "CONF",
+    "OTHERS"
+   ]
   }
  ],
- "updated": "2026-11-18T14:00:13Z"
+ "updated": "2026-11-18T21:58:04Z"
 }
