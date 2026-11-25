@@ -2359,15 +2359,15 @@
   },
   {
    "deadlines": [
-    "2026-02-01"
+    "2027-02-21"
    ],
    "desc": "ACM Cyber-Physical System Security Workshop",
-   "end": "2026-06-02",
-   "link": "https://cpss26.github.io/",
-   "name": "CPSS 2026",
-   "place": "Bangalore, India",
+   "end": "2027-07-13",
+   "link": "https://cpss-workshop.github.io/2027/",
+   "name": "CPSS 2027",
+   "place": "Macau",
    "source": "sec-deadlines",
-   "start": "2026-06-02",
+   "start": "2027-07-13",
    "tags": [
     "SEC",
     "PRIV",
@@ -3783,5 +3783,5 @@
    ]
   }
  ],
- "updated": "2026-11-25T04:13:14Z"
+ "updated": "2026-11-25T14:26:05Z"
 }
