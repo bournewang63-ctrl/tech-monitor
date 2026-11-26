@@ -460,16 +460,16 @@
   },
   {
    "deadlines": [
-    "2026-02-03",
-    "2026-05-12"
+    "2027-02-09",
+    "2027-03-18"
    ],
    "desc": "Selected Areas in Cryptography",
-   "end": "2026-08-28",
-   "link": "https://sacworkshop.org/SAC26/",
-   "name": "SAC 2026",
-   "place": "Ottawa, ON, Canada",
+   "end": "2027-08-27",
+   "link": "https://sacworkshop.org/SAC27/",
+   "name": "SAC 2027",
+   "place": "Victoria, British Columbia, Canada",
    "source": "sec-deadlines",
-   "start": "2026-08-26",
+   "start": "2027-08-23",
    "tags": [
     "CRYPTO",
     "CONF",
@@ -921,15 +921,15 @@
   },
   {
    "deadlines": [
-    "2026-06-11"
+    "2027-01-20"
    ],
    "desc": "ACM SIGOPS Annual Technical Conference",
-   "end": "2026-11-18",
-   "link": "https://sigops.org/s/conferences/atc/2026/index.html",
-   "name": "ATC 2026",
-   "place": "Shatin, Hong Kong",
+   "end": "2027-07-01",
+   "link": "https://atc.sigops.org/2027/",
+   "name": "ATC 2027",
+   "place": "Rennes, France",
    "source": "sec-deadlines",
-   "start": "2026-11-15",
+   "start": "2027-06-28",
    "tags": [
     "SEC",
     "CONF",
@@ -2094,15 +2094,15 @@
   },
   {
    "deadlines": [
-    "2025-12-11"
+    "2026-12-16"
    ],
    "desc": "Workshop on LLM Assisted Security and Trust Exploration",
-   "end": "2026-02-27",
-   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-last-x/",
-   "name": "LAST-X 2026",
-   "place": "San Diego, California, USA",
+   "end": "2027-03-26",
+   "link": "https://www.ndss-symposium.org/ndss2027/submissions/cfp-last-x/",
+   "name": "LAST-X 2027",
+   "place": "Seoul, South Korea",
    "source": "sec-deadlines",
-   "start": "2026-02-27",
+   "start": "2027-03-22",
    "tags": [
     "SEC",
     "SHOP",
@@ -2129,18 +2129,53 @@
   },
   {
    "deadlines": [
-    "2025-12-16"
+    "2027-01-09"
    ],
    "desc": "Workshop on Attack Provenance, Reasoning, and Investigation for Security in the Monitored Environment",
-   "end": "2026-02-23",
-   "link": "https://www.ndss-symposium.org/ndss2026/submissions/cfp-prism/",
-   "name": "PRISM 2026",
-   "place": "San Diego, California, USA",
+   "end": "2027-03-22",
+   "link": "https://www.ndss-symposium.org/ndss2027/submissions/cfp-prism/",
+   "name": "PRISM 2027",
+   "place": "Seoul, South Korea",
    "source": "sec-deadlines",
-   "start": "2026-02-23",
+   "start": "2027-03-22",
    "tags": [
     "SEC",
     "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-12-11"
+   ],
+   "desc": "Workshop on Security, Privacy, and Trust in Open-Source Ecosystems and Standards",
+   "end": "2027-03-22",
+   "link": "https://www.ndss-symposium.org/ndss2027/submissions/cfp-safeose/",
+   "name": "SafeOSE 2027",
+   "place": "Seoul, South Korea",
+   "source": "sec-deadlines",
+   "start": "2027-03-22",
+   "tags": [
+    "SEC",
+    "PRIV",
+    "SHOP",
+    "OTHERS"
+   ]
+  },
+  {
+   "deadlines": [
+    "2026-12-12"
+   ],
+   "desc": "Workshop on Security Testing and Assurance for LLMs and Agents",
+   "end": "2027-03-22",
+   "link": "https://www.ndss-symposium.org/ndss2027/submissions/cfp-stala/",
+   "name": "STALA 2027",
+   "place": "Seoul, South Korea",
+   "source": "sec-deadlines",
+   "start": "2027-03-22",
+   "tags": [
+    "SEC",
     "SHOP",
     "OTHERS"
    ]
@@ -3503,15 +3538,15 @@
   },
   {
    "deadlines": [
-    "2026-02-28"
+    "2027-02-05"
    ],
    "desc": "International Workshop on Secure, Accountable, and Verifiable Machine Learning",
-   "end": "2026-05-22",
-   "link": "https://conf.researchr.org/home/icst-2026/safe-ml-2026",
-   "name": "SAFE-ML 2026",
-   "place": "Daejeon, South Korea",
+   "end": "2027-05-21",
+   "link": "https://conf.researchr.org/home/icst-2027/safe-ml-2027",
+   "name": "SAFE-ML 2027",
+   "place": "San Sebastian, Spain",
    "source": "sec-deadlines",
-   "start": "2026-05-18",
+   "start": "2027-05-17",
    "tags": [
     "SEC",
     "PRIV",
@@ -3783,5 +3818,5 @@
    ]
   }
  ],
- "updated": "2026-11-25T23:38:09Z"
+ "updated": "2026-11-26T08:20:45Z"
 }
